@@ -1,0 +1,18 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+import HeroCarousel from '../components/sections/HeroCarousel';
+import ProductDisplay from '../components/sections/ProductDisplay.astro';
+import ApplicationsPreview from '../components/sections/ApplicationsPreview.astro';
+---
+
+<BaseLayout title="Shenzhen Qiyang Electronics Co., Ltd. - Precision Interconnection & Servo Control">
+  <Header />
+  <main class="flex-1">
+    <HeroCarousel client:load />
+    <ProductDisplay />
+    <ApplicationsPreview />
+  </main>
+  <Footer />
+</BaseLayout>

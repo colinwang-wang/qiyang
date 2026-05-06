@@ -1,0 +1,20 @@
+{
+  "name": "BLDC Torque Motor",
+  "slug": "bldc-torque-motor",
+  "parent": null,
+  "series": [
+    {
+      "name": "BLDC Torque Motor",
+      "slug": "bldc-torque-motor",
+      "features": [
+        "Large torque at low rotation speed",
+        "Dimensions range: φ17 to φ400",
+        "Torque values: 0.0075 Nm to 320 Nm",
+        "Low cogging design",
+        "Compact size, light weight, low inertia",
+        "Operating Temperature -55℃ ~ +125℃"
+      ],
+      "specs": {}
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Rectangular Connector",
+    "slug": "rectangular-connector",
+    "parent": "electrical-connector",
+    "seriesCount": 15
+  },
+  {
+    "name": "RF Connector",
+    "slug": "rf-connector",
+    "parent": "electrical-connector",
+    "seriesCount": 17
+  },
+  {
+    "name": "Circular Connector",
+    "slug": "circular-connector",
+    "parent": "electrical-connector",
+    "seriesCount": 21
+  },
+  {
+    "name": "BLDC Torque Motor",
+    "slug": "bldc-torque-motor",
+    "parent": null,
+    "seriesCount": 0
+  },
+  {
+    "name": "Resolver Transmitter",
+    "slug": "resolver-transmitter",
+    "parent": null,
+    "seriesCount": 0
+  },
+  {
+    "name": "Rotary Encoder",
+    "slug": "rotary-encoder",
+    "parent": null,
+    "seriesCount": 0
+  }
+]

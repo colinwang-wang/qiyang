@@ -1,0 +1,19 @@
+{
+  "name": "Resolver Transmitter",
+  "slug": "resolver-transmitter",
+  "parent": null,
+  "series": [
+    {
+      "name": "Resolver Transmitter",
+      "slug": "resolver-transmitter",
+      "features": [
+        "Diameter range: φ20 to φ150",
+        "Electrical error ≤ 10 (')",
+        "Operating Temperature -55℃ ~ +125℃",
+        "High temperature resistance, vibration immunity",
+        "Long service life"
+      ],
+      "specs": {}
+    }
+  ]
+}

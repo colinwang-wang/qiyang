@@ -1,0 +1,283 @@
+{
+  "name": "Circular Connector",
+  "slug": "circular-connector",
+  "parent": "electrical-connector",
+  "series": [
+    {
+      "name": "GJB599 I series",
+      "slug": "gjb599-i-series",
+      "specs": {
+        "Salt Spray": "1000h",
+        "Insulation Resistance": "≥5000MΩ",
+        "Withstand Voltage": "2300V",
+        "Mechanical Life": "500 cycles",
+        "Operating Temperature": "- 65℃ ~ +200℃",
+        "Vibration": "10Hz ~ 2000Hz, 294m/s²",
+        "Shock": "3 ms duration, 300 g peak acceleration"
+      }
+    },
+    {
+      "name": "GJB599 II series",
+      "slug": "gjb599-ii-series",
+      "specs": {
+        "Salt Spray": "1000h",
+        "Insulation Resistance": "≥5000MΩ",
+        "Withstand Voltage": "2300V",
+        "Mechanical Life": "500 cycles",
+        "Operating Temperature": "- 65℃ ~ +200℃",
+        "Vibration": "10Hz ~ 1000Hz, 1g²/Hz",
+        "Shock": "3 ms duration, 300 g peak acceleration"
+      }
+    },
+    {
+      "name": "GJB599 III series",
+      "slug": "gjb599-iii-series",
+      "specs": {
+        "Salt Spray": "1000h",
+        "Insulation Resistance": "≥5000MΩ",
+        "Withstand Voltage": "2300V",
+        "Mechanical Life": "500 cycles",
+        "Operating Temperature": "- 65℃ ~ +200℃",
+        "Vibration": "100Hz ~ 1000Hz, 5g²/Hz",
+        "Shock": "3 ms duration, 300 g peak acceleration"
+      }
+    },
+    {
+      "name": "XCA series",
+      "slug": "xca-series",
+      "specs": {
+        "Salt Spray": "1000h",
+        "Insulation Resistance": "≥5000MΩ",
+        "Withstand Voltage": "1500V",
+        "Mechanical Life": "1000 cycles",
+        "Operating Temperature": "- 55℃ ~ +200℃",
+        "Vibration": "10Hz ~ 2000Hz, 196m/s²",
+        "Shock": "Acceleration: 980 m/s²"
+      }
+    },
+    {
+      "name": "XCG series",
+      "slug": "xcg-series",
+      "specs": {
+        "Salt Spray": "1000h",
+        "Insulation Resistance": "≥5000MΩ",
+        "Withstand Voltage": "≥1500V",
+        "Mechanical Life": "1000 cycles",
+        "Operating Temperature": "- 55℃ ~ +200℃",
+        "Vibration": "10Hz ~ 2000Hz, 196m/s²",
+        "Shock": "Acceleration: 980 m/s²"
+      }
+    },
+    {
+      "name": "XC series",
+      "slug": "xc-series",
+      "specs": {
+        "Salt Spray": "1000h",
+        "Insulation Resistance": "≥5000MΩ",
+        "Withstand Voltage": "1500V",
+        "Mechanical Life": "500 cycles",
+        "Operating Temperature": "- 55℃ ~ +200℃",
+        "Vibration": "10Hz ~ 2000Hz, 196m/s²",
+        "Shock": "Acceleration: 980 m/s²"
+      }
+    },
+    {
+      "name": "XCD series",
+      "slug": "xcd-series",
+      "specs": {
+        "Salt Spray": "1000h",
+        "Insulation Resistance": "≥5000MΩ",
+        "Withstand Voltage": "1500V",
+        "Mechanical Life": "1000 cycles",
+        "Operating Temperature": "- 55℃ ~ +200℃",
+        "Vibration": "10Hz ~ 2000Hz, 196m/s²",
+        "Shock": "Acceleration: 980 m/s²"
+      }
+    },
+    {
+      "name": "XCE series",
+      "slug": "xce-series",
+      "specs": {
+        "Salt Spray": "1000 cycles",
+        "Insulation Resistance": "≥5000MΩ",
+        "Withstand Voltage": "≥1500V",
+        "Mechanical Life": "1000 cycles",
+        "Operating Temperature": "- 55℃ ~ +200℃",
+        "Vibration": "10Hz ~ 2000Hz, 196m/s²",
+        "Shock": "Acceleration: 980 m/s²"
+      }
+    },
+    {
+      "name": "XCF series",
+      "slug": "xcf-series",
+      "specs": {
+        "Working height": "30000m",
+        "Insulation Resistance": "≥500MΩ",
+        "Withstand Voltage": "1000V",
+        "Mechanical Life": "1000 cycles",
+        "Operating Temperature": "- 55℃ ~ +200℃",
+        "Vibration": "10Hz ~ 2000Hz, 196m/s²",
+        "Shock": "Acceleration: 980 m/s²"
+      }
+    },
+    {
+      "name": "YMA YMB series",
+      "slug": "yma-ymb-series",
+      "specs": {
+        "Salt Spray": "1000h",
+        "Standard": "Withstand 50m water depth",
+        "Insulation Resistance": "≥5000MΩ",
+        "Withstand Voltage": "1500V",
+        "Mechanical Life": "1000 cycles",
+        "Operating Temperature": "- 55℃ ~ +200℃",
+        "Vibration": "10Hz ~ 2000Hz, 196m/s²",
+        "Shock": "Acceleration: 980 m/s²"
+      }
+    },
+    {
+      "name": "YMC series",
+      "slug": "ymc-series",
+      "specs": {
+        "Salt Spray": "1000h",
+        "Standard": "Withstand 50m water depth",
+        "Insulation Resistance": "≥5000MΩ",
+        "Withstand Voltage": "1500V",
+        "Mechanical Life": "1000 cycles",
+        "Operating Temperature": "- 55℃ ~ +200℃",
+        "Vibration": "10Hz ~ 2000Hz, 196m/s²",
+        "Shock": "Acceleration: 980 m/s²"
+      }
+    },
+    {
+      "name": "YMD series",
+      "slug": "ymd-series",
+      "specs": {
+        "Salt Spray": "1000h",
+        "Standard": "Withstand 50m water depth",
+        "Insulation Resistance": "≥5000MΩ",
+        "Withstand Voltage": "2300V",
+        "Mechanical Life": "500 cycles",
+        "Operating Temperature": "- 55℃ ~ +200℃",
+        "Vibration": "10Hz ~ 2000Hz, 196m/s²",
+        "Shock": "Acceleration: 980 m/s²"
+      }
+    },
+    {
+      "name": "YMG series",
+      "slug": "ymg-series",
+      "specs": {
+        "Salt Spray": "1000h",
+        "Standard": "Withstand 50m water depth",
+        "Insulation Resistance": "≥5000MΩ",
+        "Withstand Voltage": "1500V",
+        "Mechanical Life": "1000 cycles",
+        "Operating Temperature": "- 55℃ ~ +200℃",
+        "Vibration": "10Hz ~ 2000Hz, 196m/s²",
+        "Shock": "Acceleration: 980 m/s²"
+      }
+    },
+    {
+      "name": "Y50X series",
+      "slug": "y50x-series",
+      "specs": {
+        "Salt Spray": "96h",
+        "Insulation Resistance": "≥3000MΩ",
+        "Withstand Voltage": "1500V",
+        "Mechanical Life": "500 cycles",
+        "Operating Temperature": "- 55℃ ~ +125℃",
+        "Vibration": "10Hz ~ 2000Hz, 196m/s²",
+        "Shock": "Acceleration: 980.7 m/s²"
+      }
+    },
+    {
+      "name": "Y50DX series",
+      "slug": "y50dx-series",
+      "specs": {
+        "Salt Spray": "96h",
+        "Insulation Resistance": "≥5000MΩ",
+        "Withstand Voltage": "2300V",
+        "Mechanical Life": "500 cycles",
+        "Operating Temperature": "- 55℃ ~ +125℃",
+        "Vibration": "10Hz ~ 2000Hz, 196m/s²",
+        "Shock": "Acceleration: 980.7 m/s²"
+      }
+    },
+    {
+      "name": "Y50EX series",
+      "slug": "y50ex-series",
+      "specs": {
+        "Salt Spray": "96h",
+        "Insulation Resistance": "≥3000MΩ",
+        "Withstand Voltage": "1000V",
+        "Mechanical Life": "500 cycles",
+        "Operating Temperature": "- 55℃ ~ +125℃",
+        "Vibration": "10Hz ~ 2000Hz, 147m/s²",
+        "Shock": "Acceleration: 980 m/s²"
+      }
+    },
+    {
+      "name": "YGD series",
+      "slug": "ygd-series",
+      "specs": {
+        "Salt Spray": "96h",
+        "Insulation Resistance": "≥5000MΩ",
+        "Withstand Voltage": "2300V",
+        "Mechanical Life": "2000 cycles",
+        "Operating Temperature": "- 55℃ ~ +125℃",
+        "Vibration": "10Hz ~ 2000Hz, 196m/s²",
+        "Shock": "Acceleration: 980 m/s²"
+      }
+    },
+    {
+      "name": "Y27 series",
+      "slug": "y27-series",
+      "specs": {
+        "Salt Spray": "1000h",
+        "Insulation Resistance": "≥5000MΩ",
+        "Withstand Voltage": "2500V",
+        "Mechanical Life": "500 cycles",
+        "Operating Temperature": "- 55℃ ~ +125℃",
+        "Vibration": "10Hz ~ 2000Hz, 196m/s²",
+        "Shock": "Acceleration: 980 m/s²"
+      }
+    },
+    {
+      "name": "Y17 series",
+      "slug": "y17-series",
+      "specs": {
+        "Insulation Resistance": "≥1000MΩ",
+        "Withstand Voltage": "1000V",
+        "Mechanical Life": "500 cycles",
+        "Operating Temperature": "- 55℃ ~ +175℃",
+        "Vibration": "10Hz ~ 2000Hz, 98m/s²",
+        "Shock": "Acceleration: 490 m/s²"
+      }
+    },
+    {
+      "name": "YL series",
+      "slug": "yl-series",
+      "specs": {
+        "Salt Spray": "96h",
+        "Insulation Resistance": "≥5000MΩ",
+        "Withstand Voltage": "2300V",
+        "Mechanical Life": "500 cycles",
+        "Operating Temperature": "- 55℃ ~ +125℃",
+        "Vibration": "10Hz ~ 2000Hz, 196m/s²",
+        "Shock": "Acceleration: 980 m/s²"
+      }
+    },
+    {
+      "name": "YW series",
+      "slug": "yw-series",
+      "specs": {
+        "Salt Spray": "96h",
+        "Insulation Resistance": "≥5000MΩ",
+        "Withstand Voltage": "1000V",
+        "Mechanical Life": "500 cycles",
+        "Operating Temperature": "- 55℃ ~ +125℃",
+        "Vibration": "10Hz ~ 2000Hz, 147m/s²",
+        "Shock": "Acceleration: 490 m/s²"
+      }
+    }
+  ]
+}

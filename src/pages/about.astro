@@ -1,0 +1,45 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+
+const factoryImages = [
+  '/images/factory/factory-1.png',
+  '/images/factory/factory-2.png',
+  '/images/factory/factory-3.png',
+];
+---
+
+<BaseLayout title="About Us - Shenzhen Qiyang Electronics" description="Shenzhen Qiyang Electronics Co., Ltd. specializes in precision interconnection and servo control, integrating R&D, manufacturing and global sales.">
+  <Header />
+  <main class="flex-1">
+    <div class="bg-primary text-white py-12">
+      <div class="max-w-7xl mx-auto px-4">
+        <h1 class="text-3xl font-bold">ABOUT US</h1>
+      </div>
+    </div>
+    <div class="max-w-7xl mx-auto px-4 py-12">
+      <div class="max-w-4xl mx-auto space-y-6 text-gray-700 leading-relaxed">
+        <p>
+          Shenzhen Qiyang Electronics Co., Ltd. is an innovative enterprise specializing in the precision interconnection and servo control industry, integrating independent R&D, intelligent manufacturing, and global sales. Our core product portfolio includes high-reliability rectangular connectors, circular connectors, RF connectors, cable assemblies, brushless torque DC motors, resolver transmitters, rotary encoders. Backed by our mature technical expertise and strictly controlled quality management system, our products are built to function steadily in harsh environments, and can fully meet diverse application demands of customers in different industries.
+        </p>
+        <p>
+          Adhering to technology as the core and quality as the foundation, our products and services widely cover high-end applications such as consumer electronics, industrial control, security monitoring, communication equipment, aerospace, automotive electronics, medical equipment, machine tools, automation and precision instruments, delivering reliable solutions for customers across the world.
+        </p>
+        <p>
+          Moving forward, we will keep pursuing technological innovation and product excellence, and strive to become a trusted long-term partner for global clients.
+        </p>
+      </div>
+
+      <!-- Factory images -->
+      <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-4">
+        {factoryImages.map((img, i) => (
+          <div class="rounded-lg overflow-hidden shadow-sm">
+            <img src={img} alt={`Qiyang Factory ${i + 1}`} class="w-full h-64 object-cover" />
+          </div>
+        ))}
+      </div>
+    </div>
+  </main>
+  <Footer />
+</BaseLayout>

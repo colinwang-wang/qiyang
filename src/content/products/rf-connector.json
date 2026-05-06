@@ -1,0 +1,92 @@
+{
+  "name": "RF Connector",
+  "slug": "rf-connector",
+  "parent": "electrical-connector",
+  "series": [
+    {
+      "name": "SMP Series",
+      "slug": "smp-series",
+      "specs": {}
+    },
+    {
+      "name": "SSMP Series",
+      "slug": "ssmp-series",
+      "specs": {}
+    },
+    {
+      "name": "CSMP Series",
+      "slug": "csmp-series",
+      "specs": {}
+    },
+    {
+      "name": "ASMP Series",
+      "slug": "asmp-series",
+      "specs": {}
+    },
+    {
+      "name": "SMA Series",
+      "slug": "sma-series",
+      "specs": {}
+    },
+    {
+      "name": "SSMA Series",
+      "slug": "ssma-series",
+      "specs": {}
+    },
+    {
+      "name": "K2.92mm Series",
+      "slug": "k2.92mm-series",
+      "specs": {}
+    },
+    {
+      "name": "3.5mm Series",
+      "slug": "3.5mm-series",
+      "specs": {}
+    },
+    {
+      "name": "2.4mm Series",
+      "slug": "2.4mm-series",
+      "specs": {}
+    },
+    {
+      "name": "1.0mm Series",
+      "slug": "1.0mm-series",
+      "specs": {}
+    },
+    {
+      "name": "MSSM Series",
+      "slug": "mssm-series",
+      "specs": {}
+    },
+    {
+      "name": "N Type Series",
+      "slug": "n-type-series",
+      "specs": {}
+    },
+    {
+      "name": "TMA Series",
+      "slug": "tma-series",
+      "specs": {}
+    },
+    {
+      "name": "TNC Series",
+      "slug": "tnc-series",
+      "specs": {}
+    },
+    {
+      "name": "TNCA Series",
+      "slug": "tnca-series",
+      "specs": {}
+    },
+    {
+      "name": "SBMA Series",
+      "slug": "sbma-series",
+      "specs": {}
+    },
+    {
+      "name": "BMA Series",
+      "slug": "bma-series",
+      "specs": {}
+    }
+  ]
+}

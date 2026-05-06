@@ -1,0 +1,23 @@
+{
+  "name": "Rotary Encoder",
+  "slug": "rotary-encoder",
+  "parent": null,
+  "series": [
+    {
+      "name": "Rotary Encoder",
+      "slug": "rotary-encoder",
+      "features": [
+        "Contactless design, hollow shaft structure",
+        "High resolution and high precision (0.01°)",
+        "Highest speed up to 4000RPM",
+        "Ultra-thin (Dia.: 25mm to 130mm), ultra-light (3g~90g)",
+        "Maximum number of bits per turn can reach 21 bit",
+        "SSI, BISS or UART interface",
+        "High tolerance to shock, humidity, EMI and RFI",
+        "Low power consumption",
+        "Anti-interference of magnetic field"
+      ],
+      "specs": {}
+    }
+  ]
+}

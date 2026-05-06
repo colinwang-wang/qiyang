@@ -1,0 +1,40 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
+
+const categories = [
+  { name: 'ELECTRICAL CONNECTOR', slug: 'electrical-connector', image: '/images/products/rectangular-connector.png' },
+  { name: 'CABLE ASSEMBLY', slug: 'cable-assembly', image: '/images/products/cable-assembly.jpg' },
+  { name: 'BLDC TORQUE MOTOR', slug: 'bldc-torque-motor', image: '/images/products/bldc-torque-motor.png' },
+  { name: 'RESOLVER TRANSMITTER', slug: 'resolver-transmitter', image: '/images/products/bldc-torque-motor.png' },
+  { name: 'ROTARY ENCODER', slug: 'rotary-encoder', image: '/images/products/bldc-torque-motor.png' },
+  { name: 'INTERNATIONAL BRANDS', slug: 'international-brands', image: '/images/brands/connector-te.jpg' },
+];
+---
+
+<BaseLayout title="Products - Shenzhen Qiyang Electronics" description="Browse our product categories: Electrical Connectors, Cable Assembly, BLDC Torque Motors, Resolver Transmitters, Rotary Encoders and International Brands.">
+  <Header />
+  <main class="flex-1">
+    <div class="bg-primary text-white py-12">
+      <div class="max-w-7xl mx-auto px-4">
+        <h1 class="text-3xl font-bold">PRODUCTS</h1>
+      </div>
+    </div>
+    <div class="max-w-7xl mx-auto px-4 py-12">
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+        {categories.map((cat) => (
+          <a href={`/products/${cat.slug}`} class="group bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow overflow-hidden border">
+            <div class="aspect-square p-6 flex items-center justify-center">
+              <img src={cat.image} alt={`${cat.name} - Shenzhen Qiyang Electronics`} class="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform" />
+            </div>
+            <div class="p-4 text-center border-t bg-gray-50">
+              <span class="text-sm font-bold text-gray-800 group-hover:text-primary transition-colors">{cat.name}</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </main>
+  <Footer />
+</BaseLayout>

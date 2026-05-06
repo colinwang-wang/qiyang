@@ -1,0 +1,98 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import Header from '../../../../components/layout/Header.astro';
+import Footer from '../../../../components/layout/Footer.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+
+export function getStaticPaths() {
+  const productsDir = path.join(process.cwd(), 'src/content/products');
+  const slugs = ['rectangular-connector', 'circular-connector', 'rf-connector'];
+  const paths: any[] = [];
+
+  for (const catSlug of slugs) {
+    const data = JSON.parse(fs.readFileSync(path.join(productsDir, `${catSlug}.json`), 'utf-8'));
+    for (const series of data.series) {
+      paths.push({
+        params: { subcategory: catSlug, product: series.slug },
+        props: { series, categoryName: data.name, categorySlug: catSlug },
+      });
+    }
+  }
+  return paths;
+}
+
+const { subcategory, product } = Astro.params;
+const { series, categoryName, categorySlug } = Astro.props;
+---
+
+<BaseLayout title={`${series.name} - ${categoryName} - Shenzhen Qiyang Electronics`}>
+  <Header />
+  <main class="flex-1">
+    <div class="bg-primary text-white py-12">
+      <div class="max-w-7xl mx-auto px-4">
+        <nav class="text-sm text-blue-200 mb-2">
+          <a href="/products" class="hover:text-white">Products</a> &gt;
+          <a href="/products/electrical-connector" class="hover:text-white">Electrical Connector</a> &gt;
+          <a href={`/products/electrical-connector/${categorySlug}`} class="hover:text-white">{categoryName}</a> &gt;
+          {series.name}
+        </nav>
+        <h1 class="text-3xl font-bold">{series.name}</h1>
+      </div>
+    </div>
+    <div class="max-w-7xl mx-auto px-4 py-12">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <!-- Product Image -->
+        <div class="bg-gray-50 rounded-lg p-8 flex items-center justify-center">
+          <img src={`/images/products/${series.image}`} alt={`${series.name} - ${categoryName} - Shenzhen Qiyang Electronics`} class="max-w-full max-h-96 object-contain" />
+        </div>
+
+        <!-- Specs -->
+        <div>
+          <h2 class="text-2xl font-bold text-gray-800 mb-6">{series.name}</h2>
+          {series.specs && Object.keys(series.specs).length > 0 ? (
+            <div class="border rounded-lg overflow-hidden">
+              <table class="w-full text-sm">
+                <thead>
+                  <tr class="bg-primary text-white">
+                    <th class="px-4 py-3 text-left">Parameter</th>
+                    <th class="px-4 py-3 text-left">Value</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {Object.entries(series.specs).map(([key, value]: [string, any], i: number) => (
+                    <tr class={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+                      <td class="px-4 py-3 font-medium text-gray-700">{key}</td>
+                      <td class="px-4 py-3 text-gray-600">{value}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          ) : series.features ? (
+            <ul class="space-y-3">
+              {series.features.map((f: string) => (
+                <li class="flex items-start gap-2">
+                  <span class="text-primary mt-1">•</span>
+                  <span class="text-gray-700">{f}</span>
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p class="text-gray-500">Specifications available upon request. Please contact us.</p>
+          )}
+
+          <div class="flex flex-wrap gap-4 mt-8">
+            <a href="/contact" class="px-6 py-3 bg-accent text-white font-semibold rounded-lg hover:bg-amber-600 transition-colors">
+              Request Quote
+            </a>
+            <button disabled class="px-6 py-3 border-2 border-gray-300 text-gray-400 font-semibold rounded-lg cursor-not-allowed" title="Coming soon">
+              Download PDF
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</BaseLayout>

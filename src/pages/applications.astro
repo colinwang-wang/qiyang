@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+import ApplicationsCarousel from '../components/sections/ApplicationsCarousel';
+---
+
+<BaseLayout title="Applications - Shenzhen Qiyang Electronics" description="Our connectors and servo control products are widely used in aerospace, industrial control, automotive electronics, medical equipment and more.">
+  <Header />
+  <main class="flex-1">
+    <div class="bg-primary text-white py-12">
+      <div class="max-w-7xl mx-auto px-4">
+        <h1 class="text-3xl font-bold">APPLICATIONS</h1>
+      </div>
+    </div>
+    <div class="max-w-7xl mx-auto px-4 py-12">
+      <p class="text-gray-600 text-center max-w-3xl mx-auto mb-10">
+        Our products are widely used in consumer electronics, industrial control, security monitoring, communication equipment, aerospace, automotive electronics, medical equipment, machine tools, automation and precision instruments.
+      </p>
+      <ApplicationsCarousel client:load />
+    </div>
+  </main>
+  <Footer />
+</BaseLayout>

@@ -1,0 +1,221 @@
+{
+  "name": "Rectangular Connector",
+  "slug": "rectangular-connector",
+  "parent": "electrical-connector",
+  "series": [
+    {
+      "name": "J63A series",
+      "slug": "j63a-series",
+      "specs": {
+        "Operating Temperature": "- 55℃ ~  + 125℃",
+        "Vibration": "10 ~ 2000Hz, 196m/s²",
+        "Shock": "980m/s², 6ms",
+        "Rated Current": "1A",
+        "Contact Resistance": "≤21mΩ",
+        "Insulation Resistance": "≥5000MΩ @ 100VDC",
+        "Dielectric Withstand Voltage": "250V",
+        "Mechanical Life": "500 cycles"
+      }
+    },
+    {
+      "name": "J30 series",
+      "slug": "j30-series",
+      "specs": {
+        "Operating Temperature": "- 55℃ ~ +185℃",
+        "Vibration": "10 ~ 2000Hz, 196m/s²",
+        "Shock": "735m/s²",
+        "Rated Current": "3A",
+        "Contact Resistance": "≤10mΩ",
+        "Insulation Resistance": "≥5000MΩ",
+        "Dielectric Withstand Voltage": "800V",
+        "Mechanical Life": "500 cycles"
+      }
+    },
+    {
+      "name": "J30 V2 series",
+      "slug": "j30-v2-series",
+      "specs": {
+        "Operating Temperature": "- 55℃ ~ +125℃",
+        "Vibration": "10~2000Hz, 196m/s²",
+        "Shock": "735m/s²",
+        "Rated Current": "3A",
+        "Contact Resistance": "≤10mΩ",
+        "Insulation Resistance": "≥5000MΩ",
+        "Dielectric Withstand Voltage": "800V",
+        "Mechanical Life": "500 cycles"
+      }
+    },
+    {
+      "name": "J30J series",
+      "slug": "j30j-series",
+      "specs": {
+        "Operating Temperature": "- 55℃ ~ +125℃",
+        "Vibration": "10~2000Hz, 196m/s²",
+        "Shock": "735m/s²",
+        "Rated Current": "3A",
+        "Contact Resistance": "≤10mΩ",
+        "Insulation Resistance": "≥5000MΩ",
+        "Dielectric Withstand Voltage": "800V",
+        "Mechanical Life": "500 cycles"
+      }
+    },
+    {
+      "name": "J30J/X series",
+      "slug": "j30j-x-series",
+      "specs": {
+        "Operating Temperature": "- 55℃ ~ +125℃",
+        "Vibration": "10Hz ~ 2000Hz, 196m/s²",
+        "Shock": "735m/s², 11ms",
+        "Rated Current": "3A",
+        "Contact Resistance": "≤ 10mΩ",
+        "Insulation Resistance": "≥ 5000MΩ (500VDC)",
+        "Dielectric Withstand Voltage": "800V",
+        "Mechanical Life": "20000 cycles",
+        "Salt Spray": "48h"
+      }
+    },
+    {
+      "name": "J30J HT series",
+      "slug": "j30j-ht-series",
+      "specs": {
+        "Operating Temperature": "- 55℃ ~ +125℃",
+        "Vibration": "10~2000Hz, 294m/s²",
+        "Shock": "980m/s²",
+        "Rated Current": "3A",
+        "Contact Resistance": "≤ 10mΩ",
+        "Insulation Resistance": "≥ 5000MΩ",
+        "Dielectric Withstand Voltage": "800V",
+        "Mechanical Life": "500 cycles",
+        "Salt Spray": "96h"
+      }
+    },
+    {
+      "name": "J30J Z series                 (40% size of J30J)",
+      "slug": "j30j-z-series--40-size-of-j30j",
+      "specs": {
+        "Operating Temperature": "- 55℃ ~ +125℃",
+        "Vibration": "10Hz ~ 2000Hz, 196m/s²",
+        "Shock": "735m/s², 11ms",
+        "Rated Current": "3A",
+        "Contact Resistance": "≤ 10mΩ",
+        "Insulation Resistance": "≥ 5000MΩ",
+        "Dielectric Withstand Voltage": "600V",
+        "Mechanical Life": "20000 cycles"
+      }
+    },
+    {
+      "name": "J30J High & Low current pins mixed series",
+      "slug": "j30j-high-low-current-pins-mixed-series",
+      "specs": {
+        "Operating Temperature": "- 55℃ ~ +125℃",
+        "Vibration": "10~2000Hz, 196m/s²",
+        "Shock": "735m/s²",
+        "Rated Current": "3A / 20A",
+        "Contact Resistance": "≤ 10mΩ",
+        "Insulation Resistance": "≥ 5000MΩ",
+        "Dielectric Withstand Voltage": "800V",
+        "Mechanical Life": "500 cycles"
+      }
+    },
+    {
+      "name": "HJ30J High-Speed Transmission Series",
+      "slug": "hj30j-high-speed-transmission-series",
+      "specs": {
+        "Operating Temperature": "- 55℃ ~ +125℃",
+        "Vibration": "10~2000Hz, 196m/s²",
+        "Shock": "735m/s²",
+        "Rated Current": "3A",
+        "Contact Resistance": "≤ 20mΩ",
+        "Insulation Resistance": "≥ 5000MΩ",
+        "Dielectric Withstand Voltage": "800V",
+        "Mechanical Life": "500 cycles"
+      }
+    },
+    {
+      "name": "J24H micro Series",
+      "slug": "j24h-micro-series",
+      "specs": {
+        "Operating Temperature": "- 55℃ ~ +125℃",
+        "Vibration": "10~2000Hz, 196m/s²",
+        "Shock": "980m/s²",
+        "Rated Current": "3A",
+        "Contact Resistance": "≤10mΩ",
+        "Insulation Resistance": "≥1000MΩ",
+        "Dielectric Withstand Voltage": "1000V",
+        "Mechanical Life": "500 cycles"
+      }
+    },
+    {
+      "name": "J29A micro Series",
+      "slug": "j29a-micro-series",
+      "specs": {
+        "Operating Temperature": "- 55℃ ~ +125℃",
+        "Vibration": "10~2000Hz, 147m/s²",
+        "Shock": "1200m/s², 6ms",
+        "Rated Current": "5A",
+        "Contact Resistance": "≤10mΩ",
+        "Insulation Resistance": "≥5000MΩ",
+        "Dielectric Withstand Voltage": "1500V",
+        "Mechanical Life": "500 cycles"
+      }
+    },
+    {
+      "name": "J18 Series",
+      "slug": "j18-series",
+      "specs": {
+        "Withstand Voltage": "1000V",
+        "Insulation Resistance": "≥5000MΩ",
+        "Contact Diameter": "0.76mm",
+        "Contact Resistance": "≤0.01Ω",
+        "Rated Current": "2A",
+        "Operating Temperature": "- 65 ~ +125℃",
+        "Vibration": "10~2000Hz, 147m/s²",
+        "Acceleration": "980m/s²",
+        "Mechanical Life": "1000 cycles"
+      }
+    },
+    {
+      "name": "JL24 Series",
+      "slug": "jl24-series",
+      "specs": {
+        "Rated Voltage": "300V (AC)",
+        "Rated Current": "1A (φ0.6)",
+        "Contact Resistance": "≤12.5mΩ",
+        "Insulation Resistance": "5000MΩ",
+        "Withstand Voltage": "1000V (AC)",
+        "Mechanical Life": "500 cycles",
+        "Operating Temperature": "- 65 ~ +125℃",
+        "Vibration": "10Hz ~ 2000Hz, 147m/s²",
+        "Shock": "980m/s²"
+      }
+    },
+    {
+      "name": "J36A(Normal)     J36W(Low-magnetic) Series",
+      "slug": "j36a-normal--j36w-low-magnetic--series",
+      "specs": {
+        "Rated Current": "5A",
+        "Contact Resistance": "<0.006Ω",
+        "Insulation Resistance": "≥5000MΩ",
+        "Withstand Voltage": "1000V",
+        "Mechanical Life": "500 cycles",
+        "Operating Temperature": "- 55℃ ~ +125℃",
+        "Vibration": "10Hz ~ 2000Hz, 245m/s²",
+        "Shock": "980m/s²"
+      }
+    },
+    {
+      "name": "J14A(Low-frequency) J14P(Low-frequency) J14W(Low-magnetic)  Series",
+      "slug": "j14a-low-frequency--j14p-low-frequency--j14w-low-magnetic--series",
+      "specs": {
+        "Rated Current": "3A",
+        "Contact Resistance": "<0.006Ω",
+        "Insulation Resistance": "≥2000MΩ",
+        "Withstand Voltage": "800V",
+        "Mechanical Life": "500 cycles",
+        "Operating Temperature": "- 55℃ ~ +125℃",
+        "Vibration": "10Hz ~ 2000Hz, 196m/s²",
+        "Shock": "980m/s²"
+      }
+    }
+  ]
+}

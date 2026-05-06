@@ -1,0 +1,43 @@
+---
+const navItems = [
+  { label: 'HOME', href: '/' },
+  { label: 'PRODUCTS', href: '/products' },
+  { label: 'APPLICATIONS', href: '/applications' },
+  { label: 'NEWS', href: '/news' },
+  { label: 'ABOUT US', href: '/about' },
+  { label: 'CONTACT US', href: '/contact' },
+];
+---
+
+<footer class="bg-gray-900 text-gray-300 mt-auto">
+  <div class="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+    <!-- Company info -->
+    <div>
+      <h3 class="text-white font-semibold text-lg mb-4">Shenzhen Qiyang Electronics Co., Ltd.</h3>
+      <div class="space-y-2 text-sm">
+        <p>Address: 2nd Floor, 23rd Building of Keyuan West, No.1 of Kezhi West Road, Yuehai street, Nanshan, Shenzhen, Guangdong, China</p>
+        <p>Tel: +86 755-XXXX-XXXX</p>
+        <p>Email: sales@sz-qy.com.cn</p>
+        <p>Website: www.sz-qy.com.cn</p>
+      </div>
+    </div>
+
+    <!-- Fast navigation -->
+    <div>
+      <h3 class="text-white font-semibold text-lg mb-4">Fast Navigation</h3>
+      <ul class="grid grid-cols-2 gap-2 text-sm">
+        {navItems.map((item) => (
+          <li>
+            <a href={item.href} class="hover:text-white transition-colors">{item.label}</a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+
+  <div class="border-t border-gray-700">
+    <div class="max-w-7xl mx-auto px-4 py-4 text-center text-sm text-gray-500">
+      &copy; {new Date().getFullYear()} Shenzhen Qiyang Electronics Co., Ltd. All rights reserved.
+    </div>
+  </div>
+</footer>
