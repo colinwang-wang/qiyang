@@ -7,7 +7,7 @@ interface Props {
 }
 
 export default function HeroCarousel({ base = '' }: Props) {
-  const images = Array.from({ length: 8 }, (_, i) => `${base}/images/carousel/carousel-${i + 1}.png`);
+  const images = Array.from({ length: 9 }, (_, i) => `${base}/images/carousel/carousel-${i + 1}.png`);
   const [current, setCurrent] = useState(0);
 
   const next = useCallback(() => setCurrent((c) => (c + 1) % images.length), []);
