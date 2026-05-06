@@ -2,10 +2,12 @@ import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
-const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-const images = Array.from({ length: 8 }, (_, i) => `${base}/images/carousel/carousel-${i + 1}.png`);
+interface Props {
+  base?: string;
+}
 
-export default function HeroCarousel() {
+export default function HeroCarousel({ base = '' }: Props) {
+  const images = Array.from({ length: 8 }, (_, i) => `${base}/images/carousel/carousel-${i + 1}.png`);
   const [current, setCurrent] = useState(0);
 
   const next = useCallback(() => setCurrent((c) => (c + 1) % images.length), []);
@@ -31,7 +33,6 @@ export default function HeroCarousel() {
         />
       </AnimatePresence>
 
-      {/* Arrows */}
       <button onClick={prev} className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white p-2 rounded-full shadow" aria-label="Previous">
         <ChevronLeft className="w-5 h-5" />
       </button>
@@ -39,7 +40,6 @@ export default function HeroCarousel() {
         <ChevronRight className="w-5 h-5" />
       </button>
 
-      {/* Dots */}
       <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
         {images.map((_, i) => (
           <button

@@ -10,7 +10,7 @@ import ApplicationsPreview from '../components/sections/ApplicationsPreview.astr
 <BaseLayout title="Shenzhen Qiyang Electronics Co., Ltd. - Precision Interconnection & Servo Control">
   <Header />
   <main class="flex-1">
-    <HeroCarousel client:load />
+    <HeroCarousel client:load base={import.meta.env.BASE_URL.replace(/\/$/, '')} />
     <ProductDisplay />
     <ApplicationsPreview />
   </main>

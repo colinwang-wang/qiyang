@@ -2,16 +2,19 @@ import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
-const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-const images = [
-  { src: `${base}/images/applications/application-1.png`, alt: 'Industrial Control Applications - Shenzhen Qiyang Electronics' },
-  { src: `${base}/images/applications/application-2.png`, alt: 'Aerospace Applications - Shenzhen Qiyang Electronics' },
-  { src: `${base}/images/applications/application-3.png`, alt: 'Communication Equipment Applications - Shenzhen Qiyang Electronics' },
-  { src: `${base}/images/applications/application-4.png`, alt: 'Automotive Electronics Applications - Shenzhen Qiyang Electronics' },
-  { src: `${base}/images/applications/application-5.jpg`, alt: 'Medical Equipment Applications - Shenzhen Qiyang Electronics' },
-];
+interface Props {
+  base?: string;
+}
 
-export default function ApplicationsCarousel() {
+export default function ApplicationsCarousel({ base = '' }: Props) {
+  const images = [
+    { src: `${base}/images/applications/application-1.png`, alt: 'Industrial Control Applications - Shenzhen Qiyang Electronics' },
+    { src: `${base}/images/applications/application-2.png`, alt: 'Aerospace Applications - Shenzhen Qiyang Electronics' },
+    { src: `${base}/images/applications/application-3.png`, alt: 'Communication Equipment Applications - Shenzhen Qiyang Electronics' },
+    { src: `${base}/images/applications/application-4.png`, alt: 'Automotive Electronics Applications - Shenzhen Qiyang Electronics' },
+    { src: `${base}/images/applications/application-5.jpg`, alt: 'Medical Equipment Applications - Shenzhen Qiyang Electronics' },
+  ];
+
   const [current, setCurrent] = useState(0);
 
   const next = useCallback(() => setCurrent((c) => (c + 1) % images.length), []);

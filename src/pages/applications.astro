@@ -17,7 +17,7 @@ import ApplicationsCarousel from '../components/sections/ApplicationsCarousel';
       <p class="text-gray-600 text-center max-w-3xl mx-auto mb-10">
         Our products are widely used in consumer electronics, industrial control, security monitoring, communication equipment, aerospace, automotive electronics, medical equipment, machine tools, automation and precision instruments.
       </p>
-      <ApplicationsCarousel client:load />
+      <ApplicationsCarousel client:load base={import.meta.env.BASE_URL.replace(/\/$/, '')} />
     </div>
   </main>
   <Footer />
