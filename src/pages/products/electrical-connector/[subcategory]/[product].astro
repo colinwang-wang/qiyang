@@ -30,7 +30,7 @@ const { series, categoryName, categorySlug } = Astro.props;
 <BaseLayout title={`${series.name} - ${categoryName} - Shenzhen Qiyang Electronics`}>
   <Header />
   <main class="flex-1">
-    <div class="bg-primary text-white py-12">
+    <div class="bg-primary text-white py-8 md:py-12">
       <div class="max-w-7xl mx-auto px-4">
         <nav class="text-sm text-blue-200 mb-2">
           <a href={url('/products')} class="hover:text-white">Products</a> &gt;
@@ -38,7 +38,7 @@ const { series, categoryName, categorySlug } = Astro.props;
           <a href={url(`/products/electrical-connector/${categorySlug}`)} class="hover:text-white">{categoryName}</a> &gt;
           {series.name}
         </nav>
-        <h1 class="text-3xl font-bold">{series.name}</h1>
+        <h1 class="text-2xl md:text-3xl font-bold">{series.name}</h1>
       </div>
     </div>
     <div class="max-w-7xl mx-auto px-4 py-12">

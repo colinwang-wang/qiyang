@@ -17,9 +17,9 @@ const factoryImages = [
 <BaseLayout title="About Us - Shenzhen Qiyang Electronics" description="Shenzhen Qiyang Electronics Co., Ltd. specializes in precision interconnection and servo control, integrating R&D, manufacturing and global sales.">
   <Header />
   <main class="flex-1">
-    <div class="bg-primary text-white py-12">
+    <div class="bg-primary text-white py-8 md:py-12">
       <div class="max-w-7xl mx-auto px-4">
-        <h1 class="text-3xl font-bold">ABOUT US</h1>
+        <h1 class="text-2xl md:text-3xl font-bold">ABOUT US</h1>
       </div>
     </div>
     <div class="max-w-7xl mx-auto px-4 py-12">
@@ -36,7 +36,7 @@ const factoryImages = [
       </div>
 
       <!-- Factory images -->
-      <div class="mt-12 grid grid-cols-2 md:grid-cols-3 gap-4">
+      <div class="mt-12 grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
         {factoryImages.map((img, i) => (
           <div class="rounded-lg overflow-hidden shadow-sm">
             <img src={img} alt={`Qiyang Factory ${i + 1} - Shenzhen Qiyang Electronics`} class="w-full h-48 object-cover" />

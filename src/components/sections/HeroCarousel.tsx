@@ -19,7 +19,7 @@ export default function HeroCarousel({ base = '' }: Props) {
   }, [next]);
 
   return (
-    <section className="relative w-full aspect-[2/1] md:aspect-[3/1] overflow-hidden bg-gray-100">
+    <section className="relative w-full aspect-[4/3] sm:aspect-[2/1] md:aspect-[3/1] overflow-hidden bg-gray-100">
       <AnimatePresence mode="wait">
         <motion.img
           key={current}
