@@ -3,8 +3,10 @@ import react from '@astrojs/react';
 import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
 
+const isGitHubPages = process.env.GITHUB_ACTIONS === 'true';
+
 export default defineConfig({
-  site: 'https://colinwang-wang.github.io',
-  base: '/qiyang',
+  site: isGitHubPages ? 'https://colinwang-wang.github.io' : 'https://www.sz-qy.com.cn',
+  base: isGitHubPages ? '/qiyang' : '/',
   integrations: [react(), tailwind(), sitemap()],
 });
