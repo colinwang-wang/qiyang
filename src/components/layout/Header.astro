@@ -1,11 +1,13 @@
 ---
+import { url } from '../../utils/url';
+
 const navItems = [
-  { label: 'HOME', href: '/' },
-  { label: 'PRODUCTS', href: '/products' },
-  { label: 'APPLICATIONS', href: '/applications' },
-  { label: 'NEWS', href: '/news' },
-  { label: 'ABOUT US', href: '/about' },
-  { label: 'CONTACT US', href: '/contact' },
+  { label: 'HOME', href: url('/') },
+  { label: 'PRODUCTS', href: url('/products') },
+  { label: 'APPLICATIONS', href: url('/applications') },
+  { label: 'NEWS', href: url('/news') },
+  { label: 'ABOUT US', href: url('/about') },
+  { label: 'CONTACT US', href: url('/contact') },
 ];
 
 const currentPath = Astro.url.pathname;
@@ -22,8 +24,8 @@ const currentPath = Astro.url.pathname;
 
   <!-- Main nav -->
   <nav class="max-w-7xl mx-auto px-4 flex items-center justify-between h-16">
-    <a href="/" class="flex items-center gap-3">
-      <img src="/images/logo.png" alt="Qiyang Logo" class="h-10" />
+    <a href={url('/')} class="flex items-center gap-3">
+      <img src={url('/images/logo.png')} alt="Qiyang Logo" class="h-10" />
       <span class="text-sm font-semibold text-primary hidden lg:block leading-tight">
         Shenzhen Qiyang<br />Electronics Co., Ltd.
       </span>

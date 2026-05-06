@@ -2,11 +2,12 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/layout/Header.astro';
 import Footer from '../components/layout/Footer.astro';
+import { url } from '../utils/url';
 
 const factoryImages = [
-  '/images/factory/factory-1.png',
-  '/images/factory/factory-2.png',
-  '/images/factory/factory-3.png',
+  url('/images/factory/factory-1.png'),
+  url('/images/factory/factory-2.png'),
+  url('/images/factory/factory-3.png'),
 ];
 ---
 

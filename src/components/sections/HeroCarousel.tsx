@@ -2,7 +2,8 @@ import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
-const images = Array.from({ length: 8 }, (_, i) => `/images/carousel/carousel-${i + 1}.png`);
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const images = Array.from({ length: 8 }, (_, i) => `${base}/images/carousel/carousel-${i + 1}.png`);
 
 export default function HeroCarousel() {
   const [current, setCurrent] = useState(0);

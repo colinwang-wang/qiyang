@@ -2,11 +2,12 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Header from '../../../components/layout/Header.astro';
 import Footer from '../../../components/layout/Footer.astro';
+import { url } from '../../../utils/url';
 
 const subCategories = [
-  { name: 'RECTANGULAR CONNECTOR', slug: 'rectangular-connector', image: '/images/products/rectangular-connector.png' },
-  { name: 'CIRCULAR CONNECTOR', slug: 'circular-connector', image: '/images/products/circular-connector.png' },
-  { name: 'RF CONNECTOR', slug: 'rf-connector', image: '/images/products/rf-connector.png' },
+  { name: 'RECTANGULAR CONNECTOR', slug: 'rectangular-connector', image: url('/images/products/rectangular-connector.png') },
+  { name: 'CIRCULAR CONNECTOR', slug: 'circular-connector', image: url('/images/products/circular-connector.png') },
+  { name: 'RF CONNECTOR', slug: 'rf-connector', image: url('/images/products/rf-connector.png') },
 ];
 ---
 
@@ -16,7 +17,7 @@ const subCategories = [
     <div class="bg-primary text-white py-12">
       <div class="max-w-7xl mx-auto px-4">
         <nav class="text-sm text-blue-200 mb-2">
-          <a href="/products" class="hover:text-white">Products</a> &gt; Electrical Connector
+          <a href={url('/products')} class="hover:text-white">Products</a> &gt; Electrical Connector
         </nav>
         <h1 class="text-3xl font-bold">ELECTRICAL CONNECTOR</h1>
       </div>
@@ -24,7 +25,7 @@ const subCategories = [
     <div class="max-w-7xl mx-auto px-4 py-12">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         {subCategories.map((sub) => (
-          <a href={`/products/electrical-connector/${sub.slug}`} class="group bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow overflow-hidden border">
+          <a href={url(`/products/electrical-connector/${sub.slug}`)} class="group bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow overflow-hidden border">
             <div class="aspect-square p-8 flex items-center justify-center">
               <img src={sub.image} alt={`${sub.name} - Electrical Connector - Shenzhen Qiyang Electronics`} class="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform" />
             </div>

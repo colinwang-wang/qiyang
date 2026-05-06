@@ -1,8 +1,10 @@
 ---
+import { url } from '../../utils/url';
+
 const images = [
-  { src: '/images/applications/application-1.png', alt: 'Industrial Control Applications' },
-  { src: '/images/applications/application-2.png', alt: 'Aerospace Applications' },
-  { src: '/images/applications/application-3.png', alt: 'Communication Equipment Applications' },
+  { src: url('/images/applications/application-1.png'), alt: 'Industrial Control Applications - Shenzhen Qiyang Electronics' },
+  { src: url('/images/applications/application-2.png'), alt: 'Aerospace Applications - Shenzhen Qiyang Electronics' },
+  { src: url('/images/applications/application-3.png'), alt: 'Communication Equipment Applications - Shenzhen Qiyang Electronics' },
 ];
 ---
 
@@ -11,7 +13,7 @@ const images = [
     <h2 class="text-3xl font-bold text-center text-primary mb-10">APPLICATIONS</h2>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
       {images.map((img) => (
-        <a href="/applications" class="group overflow-hidden rounded-lg shadow-sm hover:shadow-md transition-shadow">
+        <a href={url('/applications')} class="group overflow-hidden rounded-lg shadow-sm hover:shadow-md transition-shadow">
           <div class="aspect-[4/3] overflow-hidden">
             <img src={img.src} alt={img.alt} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
           </div>

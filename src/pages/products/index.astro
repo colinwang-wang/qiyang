@@ -2,14 +2,15 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/layout/Header.astro';
 import Footer from '../../components/layout/Footer.astro';
+import { url } from '../../utils/url';
 
 const categories = [
-  { name: 'ELECTRICAL CONNECTOR', slug: 'electrical-connector', image: '/images/products/rectangular-connector.png' },
-  { name: 'CABLE ASSEMBLY', slug: 'cable-assembly', image: '/images/products/cable-assembly.jpg' },
-  { name: 'BLDC TORQUE MOTOR', slug: 'bldc-torque-motor', image: '/images/products/bldc-torque-motor.png' },
-  { name: 'RESOLVER TRANSMITTER', slug: 'resolver-transmitter', image: '/images/products/bldc-torque-motor.png' },
-  { name: 'ROTARY ENCODER', slug: 'rotary-encoder', image: '/images/products/bldc-torque-motor.png' },
-  { name: 'INTERNATIONAL BRANDS', slug: 'international-brands', image: '/images/brands/connector-te.jpg' },
+  { name: 'ELECTRICAL CONNECTOR', slug: 'electrical-connector', image: url('/images/products/rectangular-connector.png') },
+  { name: 'CABLE ASSEMBLY', slug: 'cable-assembly', image: url('/images/products/cable-assembly.jpg') },
+  { name: 'BLDC TORQUE MOTOR', slug: 'bldc-torque-motor', image: url('/images/products/bldc-torque-motor.png') },
+  { name: 'RESOLVER TRANSMITTER', slug: 'resolver-transmitter', image: url('/images/products/bldc-torque-motor.png') },
+  { name: 'ROTARY ENCODER', slug: 'rotary-encoder', image: url('/images/products/bldc-torque-motor.png') },
+  { name: 'INTERNATIONAL BRANDS', slug: 'international-brands', image: url('/images/brands/connector-te.jpg') },
 ];
 ---
 
@@ -24,7 +25,7 @@ const categories = [
     <div class="max-w-7xl mx-auto px-4 py-12">
       <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
         {categories.map((cat) => (
-          <a href={`/products/${cat.slug}`} class="group bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow overflow-hidden border">
+          <a href={url(`/products/${cat.slug}`)} class="group bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow overflow-hidden border">
             <div class="aspect-square p-6 flex items-center justify-center">
               <img src={cat.image} alt={`${cat.name} - Shenzhen Qiyang Electronics`} class="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform" />
             </div>

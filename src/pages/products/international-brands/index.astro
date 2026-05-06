@@ -2,6 +2,7 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Header from '../../../components/layout/Header.astro';
 import Footer from '../../../components/layout/Footer.astro';
+import { url } from '../../../utils/url';
 import fs from 'node:fs';
 import path from 'node:path';
 
@@ -18,7 +19,7 @@ const passiveBrands = brandFiles.filter(f => f.startsWith('passive-'));
     <div class="bg-primary text-white py-12">
       <div class="max-w-7xl mx-auto px-4">
         <nav class="text-sm text-blue-200 mb-2">
-          <a href="/products" class="hover:text-white">Products</a> &gt; International Brands
+          <a href={url('/products')} class="hover:text-white">Products</a> &gt; International Brands
         </nav>
         <h1 class="text-3xl font-bold">INTERNATIONAL BRANDS</h1>
       </div>
@@ -30,7 +31,7 @@ const passiveBrands = brandFiles.filter(f => f.startsWith('passive-'));
           const name = file.replace('connector-', '').replace(/\.(jpg|png)$/, '').toUpperCase();
           return (
             <div class="bg-white border rounded-lg p-4 flex items-center justify-center aspect-[3/2]">
-              <img src={`/images/brands/${file}`} alt={name} class="max-h-full max-w-full object-contain" />
+              <img src={url(`/images/brands/${file}`)} alt={name} class="max-h-full max-w-full object-contain" />
             </div>
           );
         })}
@@ -42,7 +43,7 @@ const passiveBrands = brandFiles.filter(f => f.startsWith('passive-'));
           const name = file.replace('passive-', '').replace(/\.(jpg|png)$/, '').toUpperCase();
           return (
             <div class="bg-white border rounded-lg p-4 flex items-center justify-center aspect-[3/2]">
-              <img src={`/images/brands/${file}`} alt={name} class="max-h-full max-w-full object-contain" />
+              <img src={url(`/images/brands/${file}`)} alt={name} class="max-h-full max-w-full object-contain" />
             </div>
           );
         })}

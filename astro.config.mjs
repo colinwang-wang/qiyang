@@ -4,6 +4,7 @@ import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://www.sz-qy.com.cn',
+  site: 'https://colinwang-wang.github.io',
+  base: '/qiyang',
   integrations: [react(), tailwind(), sitemap()],
 });
