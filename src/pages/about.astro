@@ -5,9 +5,12 @@ import Footer from '../components/layout/Footer.astro';
 import { url } from '../utils/url';
 
 const factoryImages = [
-  url('/images/factory/factory-1.png'),
-  url('/images/factory/factory-2.png'),
+  url('/images/factory/factory-1.jpg'),
+  url('/images/factory/factory-2.jpg'),
   url('/images/factory/factory-3.png'),
+  url('/images/factory/factory-4.png'),
+  url('/images/factory/factory-5.png'),
+  url('/images/factory/factory-6.png'),
 ];
 ---
 
@@ -32,16 +35,14 @@ const factoryImages = [
         </p>
       </div>
 
-      <!-- Factory images - TODO: 需要从Word文档手动导出工厂图片放到 public/images/factory/ -->
-      <!--
-      <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-4">
+      <!-- Factory images -->
+      <div class="mt-12 grid grid-cols-2 md:grid-cols-3 gap-4">
         {factoryImages.map((img, i) => (
           <div class="rounded-lg overflow-hidden shadow-sm">
-            <img src={img} alt={`Qiyang Factory ${i + 1}`} class="w-full h-64 object-cover" />
+            <img src={img} alt={`Qiyang Factory ${i + 1} - Shenzhen Qiyang Electronics`} class="w-full h-48 object-cover" />
           </div>
         ))}
       </div>
-      -->
     </div>
   </main>
   <Footer />
