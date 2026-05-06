@@ -8,9 +8,11 @@ interface Props {
 
 export default function ApplicationsCarousel({ base = '' }: Props) {
   const images = [
-    { src: `${base}/images/applications/application-1.png`, alt: 'Applications - Shenzhen Qiyang Electronics' },
-    { src: `${base}/images/applications/application-2.png`, alt: 'Applications - Shenzhen Qiyang Electronics' },
-    { src: `${base}/images/applications/application-3.png`, alt: 'Applications - Shenzhen Qiyang Electronics' },
+    { src: `${base}/images/applications-page/app-1.png`, alt: 'Applications - Shenzhen Qiyang Electronics' },
+    { src: `${base}/images/applications-page/app-2.png`, alt: 'Applications - Shenzhen Qiyang Electronics' },
+    { src: `${base}/images/applications-page/app-3.png`, alt: 'Applications - Shenzhen Qiyang Electronics' },
+    { src: `${base}/images/applications-page/app-4.png`, alt: 'Applications - Shenzhen Qiyang Electronics' },
+    { src: `${base}/images/applications-page/app-5.png`, alt: 'Applications - Shenzhen Qiyang Electronics' },
   ];
 
   const [current, setCurrent] = useState(0);
