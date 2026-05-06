@@ -6,7 +6,10 @@
     {
       "name": "Resolver Transmitter",
       "slug": "resolver-transmitter",
-      "image": "image53.png",
+      "image": "image82.png",
+      "images": [
+        "image82.png"
+      ],
       "features": [
         "Diameter range: φ20 to φ150",
         "Electrical error ≤ 10 (')",

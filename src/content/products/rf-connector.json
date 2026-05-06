@@ -6,103 +6,171 @@
     {
       "name": "SMP Series",
       "slug": "smp-series",
-      "image": "image16.png",
+      "image": "image27.png",
+      "images": [
+        "image27.png",
+        "image26.png"
+      ],
       "specs": {}
     },
     {
       "name": "SSMP Series",
       "slug": "ssmp-series",
-      "image": "image17.png",
+      "image": "image88.png",
+      "images": [
+        "image88.png",
+        "image28.png"
+      ],
       "specs": {}
     },
     {
       "name": "CSMP Series",
       "slug": "csmp-series",
-      "image": "image18.png",
+      "image": "image29.png",
+      "images": [
+        "image29.png",
+        "image30.png"
+      ],
       "specs": {}
     },
     {
       "name": "ASMP Series",
       "slug": "asmp-series",
-      "image": "image19.png",
+      "image": "image31.png",
+      "images": [
+        "image31.png",
+        "image32.png"
+      ],
       "specs": {}
     },
     {
       "name": "SMA Series",
       "slug": "sma-series",
-      "image": "image20.png",
+      "image": "image33.png",
+      "images": [
+        "image33.png",
+        "image34.png"
+      ],
       "specs": {}
     },
     {
       "name": "SSMA Series",
       "slug": "ssma-series",
-      "image": "image21.png",
+      "image": "image35.png",
+      "images": [
+        "image35.png",
+        "image36.png"
+      ],
       "specs": {}
     },
     {
       "name": "K2.92mm Series",
       "slug": "k2.92mm-series",
-      "image": "image22.png",
+      "image": "image37.png",
+      "images": [
+        "image37.png",
+        "image38.png"
+      ],
       "specs": {}
     },
     {
       "name": "3.5mm Series",
       "slug": "3.5mm-series",
-      "image": "image23.png",
+      "image": "image39.png",
+      "images": [
+        "image39.png",
+        "image40.png"
+      ],
       "specs": {}
     },
     {
       "name": "2.4mm Series",
       "slug": "2.4mm-series",
-      "image": "image24.png",
+      "image": "image41.png",
+      "images": [
+        "image41.png",
+        "image42.png"
+      ],
       "specs": {}
     },
     {
       "name": "1.0mm Series",
       "slug": "1.0mm-series",
-      "image": "image25.png",
+      "image": "image43.png",
+      "images": [
+        "image43.png",
+        "image44.png"
+      ],
       "specs": {}
     },
     {
       "name": "MSSM Series",
       "slug": "mssm-series",
-      "image": "image26.png",
+      "image": "image45.png",
+      "images": [
+        "image45.png",
+        "image46.png"
+      ],
       "specs": {}
     },
     {
       "name": "N Type Series",
       "slug": "n-type-series",
-      "image": "image27.png",
+      "image": "image47.png",
+      "images": [
+        "image47.png",
+        "image48.png"
+      ],
       "specs": {}
     },
     {
       "name": "TMA Series",
       "slug": "tma-series",
-      "image": "image28.png",
+      "image": "image49.png",
+      "images": [
+        "image49.png",
+        "image50.png"
+      ],
       "specs": {}
     },
     {
       "name": "TNC Series",
       "slug": "tnc-series",
-      "image": "image29.png",
+      "image": "image51.png",
+      "images": [
+        "image51.png",
+        "image52.png"
+      ],
       "specs": {}
     },
     {
       "name": "TNCA Series",
       "slug": "tnca-series",
-      "image": "image30.png",
+      "image": "image53.png",
+      "images": [
+        "image53.png",
+        "image54.png"
+      ],
       "specs": {}
     },
     {
       "name": "SBMA Series",
       "slug": "sbma-series",
-      "image": "image31.png",
+      "image": "image55.png",
+      "images": [
+        "image55.png",
+        "image56.png"
+      ],
       "specs": {}
     },
     {
       "name": "BMA Series",
       "slug": "bma-series",
-      "image": "image32.png",
+      "image": "image57.png",
+      "images": [
+        "image57.png",
+        "image58.png"
+      ],
       "specs": {}
     }
   ]

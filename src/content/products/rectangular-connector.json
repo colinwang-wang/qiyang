@@ -7,6 +7,10 @@
       "name": "J63A series",
       "slug": "j63a-series",
       "image": "image1.png",
+      "images": [
+        "image1.png",
+        "image2.png"
+      ],
       "specs": {
         "Operating Temperature": "- 55℃ ~  + 125℃",
         "Vibration": "10 ~ 2000Hz, 196m/s²",
@@ -21,7 +25,11 @@
     {
       "name": "J30 series",
       "slug": "j30-series",
-      "image": "image2.png",
+      "image": "image3.png",
+      "images": [
+        "image3.png",
+        "image4.png"
+      ],
       "specs": {
         "Operating Temperature": "- 55℃ ~ +185℃",
         "Vibration": "10 ~ 2000Hz, 196m/s²",
@@ -36,7 +44,11 @@
     {
       "name": "J30 V2 series",
       "slug": "j30-v2-series",
-      "image": "image3.png",
+      "image": "image5.png",
+      "images": [
+        "image5.png",
+        "image6.png"
+      ],
       "specs": {
         "Operating Temperature": "- 55℃ ~ +125℃",
         "Vibration": "10~2000Hz, 196m/s²",
@@ -51,7 +63,11 @@
     {
       "name": "J30J series",
       "slug": "j30j-series",
-      "image": "image4.png",
+      "image": "image86.png",
+      "images": [
+        "image86.png",
+        "image87.png"
+      ],
       "specs": {
         "Operating Temperature": "- 55℃ ~ +125℃",
         "Vibration": "10~2000Hz, 196m/s²",
@@ -66,7 +82,11 @@
     {
       "name": "J30J/X series",
       "slug": "j30j-x-series",
-      "image": "image5.png",
+      "image": "image7.png",
+      "images": [
+        "image7.png",
+        "image8.png"
+      ],
       "specs": {
         "Operating Temperature": "- 55℃ ~ +125℃",
         "Vibration": "10Hz ~ 2000Hz, 196m/s²",
@@ -82,7 +102,11 @@
     {
       "name": "J30J HT series",
       "slug": "j30j-ht-series",
-      "image": "image6.png",
+      "image": "image9.png",
+      "images": [
+        "image9.png",
+        "image10.png"
+      ],
       "specs": {
         "Operating Temperature": "- 55℃ ~ +125℃",
         "Vibration": "10~2000Hz, 294m/s²",
@@ -98,7 +122,11 @@
     {
       "name": "J30J Z series                 (40% size of J30J)",
       "slug": "j30j-z-series--40-size-of-j30j",
-      "image": "image7.png",
+      "image": "image11.png",
+      "images": [
+        "image11.png",
+        "image12.png"
+      ],
       "specs": {
         "Operating Temperature": "- 55℃ ~ +125℃",
         "Vibration": "10Hz ~ 2000Hz, 196m/s²",
@@ -113,7 +141,11 @@
     {
       "name": "J30J High & Low current pins mixed series",
       "slug": "j30j-high-low-current-pins-mixed-series",
-      "image": "image8.png",
+      "image": "image13.png",
+      "images": [
+        "image13.png",
+        "image14.png"
+      ],
       "specs": {
         "Operating Temperature": "- 55℃ ~ +125℃",
         "Vibration": "10~2000Hz, 196m/s²",
@@ -128,7 +160,12 @@
     {
       "name": "HJ30J High-Speed Transmission Series",
       "slug": "hj30j-high-speed-transmission-series",
-      "image": "image9.png",
+      "image": "image15.png",
+      "images": [
+        "image15.png",
+        "image17.png",
+        "image16.png"
+      ],
       "specs": {
         "Operating Temperature": "- 55℃ ~ +125℃",
         "Vibration": "10~2000Hz, 196m/s²",
@@ -143,7 +180,11 @@
     {
       "name": "J24H micro Series",
       "slug": "j24h-micro-series",
-      "image": "image10.png",
+      "image": "image18.png",
+      "images": [
+        "image18.png",
+        "image19.png"
+      ],
       "specs": {
         "Operating Temperature": "- 55℃ ~ +125℃",
         "Vibration": "10~2000Hz, 196m/s²",
@@ -158,7 +199,11 @@
     {
       "name": "J29A micro Series",
       "slug": "j29a-micro-series",
-      "image": "image11.png",
+      "image": "image20.png",
+      "images": [
+        "image20.png",
+        "image21.png"
+      ],
       "specs": {
         "Operating Temperature": "- 55℃ ~ +125℃",
         "Vibration": "10~2000Hz, 147m/s²",
@@ -173,7 +218,10 @@
     {
       "name": "J18 Series",
       "slug": "j18-series",
-      "image": "image12.png",
+      "image": "image22.png",
+      "images": [
+        "image22.png"
+      ],
       "specs": {
         "Withstand Voltage": "1000V",
         "Insulation Resistance": "≥5000MΩ",
@@ -189,7 +237,10 @@
     {
       "name": "JL24 Series",
       "slug": "jl24-series",
-      "image": "image13.png",
+      "image": "image23.png",
+      "images": [
+        "image23.png"
+      ],
       "specs": {
         "Rated Voltage": "300V (AC)",
         "Rated Current": "1A (φ0.6)",
@@ -205,7 +256,10 @@
     {
       "name": "J36A(Normal)     J36W(Low-magnetic) Series",
       "slug": "j36a-normal--j36w-low-magnetic--series",
-      "image": "image14.png",
+      "image": "image24.png",
+      "images": [
+        "image24.png"
+      ],
       "specs": {
         "Rated Current": "5A",
         "Contact Resistance": "<0.006Ω",
@@ -220,7 +274,10 @@
     {
       "name": "J14A(Low-frequency) J14P(Low-frequency) J14W(Low-magnetic)  Series",
       "slug": "j14a-low-frequency--j14p-low-frequency--j14w-low-magnetic--series",
-      "image": "image15.png",
+      "image": "image25.png",
+      "images": [
+        "image25.png"
+      ],
       "specs": {
         "Rated Current": "3A",
         "Contact Resistance": "<0.006Ω",

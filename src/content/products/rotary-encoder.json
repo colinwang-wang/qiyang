@@ -6,7 +6,11 @@
     {
       "name": "Rotary Encoder",
       "slug": "rotary-encoder",
-      "image": "image53.png",
+      "image": "image83.png",
+      "images": [
+        "image83.png",
+        "image84.png"
+      ],
       "features": [
         "Contactless design, hollow shaft structure",
         "High resolution and high precision ( 0.01°)",
