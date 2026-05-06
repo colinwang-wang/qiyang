@@ -6,6 +6,7 @@
     {
       "name": "GJB599 I series",
       "slug": "gjb599-i-series",
+      "image": "image33.png",
       "specs": {
         "Salt Spray": "1000h",
         "Insulation Resistance": "≥5000MΩ",
@@ -19,6 +20,7 @@
     {
       "name": "GJB599 II series",
       "slug": "gjb599-ii-series",
+      "image": "image34.png",
       "specs": {
         "Salt Spray": "1000h",
         "Insulation Resistance": "≥5000MΩ",
@@ -32,6 +34,7 @@
     {
       "name": "GJB599 III series",
       "slug": "gjb599-iii-series",
+      "image": "image35.png",
       "specs": {
         "Salt Spray": "1000h",
         "Insulation Resistance": "≥5000MΩ",
@@ -45,6 +48,7 @@
     {
       "name": "XCA series",
       "slug": "xca-series",
+      "image": "image36.png",
       "specs": {
         "Salt Spray": "1000h",
         "Insulation Resistance": "≥5000MΩ",
@@ -58,6 +62,7 @@
     {
       "name": "XCG series",
       "slug": "xcg-series",
+      "image": "image37.png",
       "specs": {
         "Salt Spray": "1000h",
         "Insulation Resistance": "≥5000MΩ",
@@ -71,6 +76,7 @@
     {
       "name": "XC series",
       "slug": "xc-series",
+      "image": "image38.png",
       "specs": {
         "Salt Spray": "1000h",
         "Insulation Resistance": "≥5000MΩ",
@@ -84,6 +90,7 @@
     {
       "name": "XCD series",
       "slug": "xcd-series",
+      "image": "image39.png",
       "specs": {
         "Salt Spray": "1000h",
         "Insulation Resistance": "≥5000MΩ",
@@ -97,6 +104,7 @@
     {
       "name": "XCE series",
       "slug": "xce-series",
+      "image": "image40.png",
       "specs": {
         "Salt Spray": "1000 cycles",
         "Insulation Resistance": "≥5000MΩ",
@@ -110,6 +118,7 @@
     {
       "name": "XCF series",
       "slug": "xcf-series",
+      "image": "image41.png",
       "specs": {
         "Working height": "30000m",
         "Insulation Resistance": "≥500MΩ",
@@ -123,6 +132,7 @@
     {
       "name": "YMA YMB series",
       "slug": "yma-ymb-series",
+      "image": "image42.png",
       "specs": {
         "Salt Spray": "1000h",
         "Standard": "Withstand 50m water depth",
@@ -137,6 +147,7 @@
     {
       "name": "YMC series",
       "slug": "ymc-series",
+      "image": "image43.png",
       "specs": {
         "Salt Spray": "1000h",
         "Standard": "Withstand 50m water depth",
@@ -151,6 +162,7 @@
     {
       "name": "YMD series",
       "slug": "ymd-series",
+      "image": "image44.png",
       "specs": {
         "Salt Spray": "1000h",
         "Standard": "Withstand 50m water depth",
@@ -165,6 +177,7 @@
     {
       "name": "YMG series",
       "slug": "ymg-series",
+      "image": "image45.png",
       "specs": {
         "Salt Spray": "1000h",
         "Standard": "Withstand 50m water depth",
@@ -179,6 +192,7 @@
     {
       "name": "Y50X series",
       "slug": "y50x-series",
+      "image": "image46.png",
       "specs": {
         "Salt Spray": "96h",
         "Insulation Resistance": "≥3000MΩ",
@@ -192,6 +206,7 @@
     {
       "name": "Y50DX series",
       "slug": "y50dx-series",
+      "image": "image47.png",
       "specs": {
         "Salt Spray": "96h",
         "Insulation Resistance": "≥5000MΩ",
@@ -205,6 +220,7 @@
     {
       "name": "Y50EX series",
       "slug": "y50ex-series",
+      "image": "image48.png",
       "specs": {
         "Salt Spray": "96h",
         "Insulation Resistance": "≥3000MΩ",
@@ -218,6 +234,7 @@
     {
       "name": "YGD series",
       "slug": "ygd-series",
+      "image": "image49.png",
       "specs": {
         "Salt Spray": "96h",
         "Insulation Resistance": "≥5000MΩ",
@@ -231,6 +248,7 @@
     {
       "name": "Y27 series",
       "slug": "y27-series",
+      "image": "image50.png",
       "specs": {
         "Salt Spray": "1000h",
         "Insulation Resistance": "≥5000MΩ",
@@ -244,6 +262,7 @@
     {
       "name": "Y17 series",
       "slug": "y17-series",
+      "image": "image51.png",
       "specs": {
         "Insulation Resistance": "≥1000MΩ",
         "Withstand Voltage": "1000V",
@@ -256,6 +275,7 @@
     {
       "name": "YL series",
       "slug": "yl-series",
+      "image": "image52.png",
       "specs": {
         "Salt Spray": "96h",
         "Insulation Resistance": "≥5000MΩ",
@@ -269,6 +289,7 @@
     {
       "name": "YW series",
       "slug": "yw-series",
+      "image": "image53.png",
       "specs": {
         "Salt Spray": "96h",
         "Insulation Resistance": "≥5000MΩ",

@@ -6,86 +6,103 @@
     {
       "name": "SMP Series",
       "slug": "smp-series",
+      "image": "image16.png",
       "specs": {}
     },
     {
       "name": "SSMP Series",
       "slug": "ssmp-series",
+      "image": "image17.png",
       "specs": {}
     },
     {
       "name": "CSMP Series",
       "slug": "csmp-series",
+      "image": "image18.png",
       "specs": {}
     },
     {
       "name": "ASMP Series",
       "slug": "asmp-series",
+      "image": "image19.png",
       "specs": {}
     },
     {
       "name": "SMA Series",
       "slug": "sma-series",
+      "image": "image20.png",
       "specs": {}
     },
     {
       "name": "SSMA Series",
       "slug": "ssma-series",
+      "image": "image21.png",
       "specs": {}
     },
     {
       "name": "K2.92mm Series",
       "slug": "k2.92mm-series",
+      "image": "image22.png",
       "specs": {}
     },
     {
       "name": "3.5mm Series",
       "slug": "3.5mm-series",
+      "image": "image23.png",
       "specs": {}
     },
     {
       "name": "2.4mm Series",
       "slug": "2.4mm-series",
+      "image": "image24.png",
       "specs": {}
     },
     {
       "name": "1.0mm Series",
       "slug": "1.0mm-series",
+      "image": "image25.png",
       "specs": {}
     },
     {
       "name": "MSSM Series",
       "slug": "mssm-series",
+      "image": "image26.png",
       "specs": {}
     },
     {
       "name": "N Type Series",
       "slug": "n-type-series",
+      "image": "image27.png",
       "specs": {}
     },
     {
       "name": "TMA Series",
       "slug": "tma-series",
+      "image": "image28.png",
       "specs": {}
     },
     {
       "name": "TNC Series",
       "slug": "tnc-series",
+      "image": "image29.png",
       "specs": {}
     },
     {
       "name": "TNCA Series",
       "slug": "tnca-series",
+      "image": "image30.png",
       "specs": {}
     },
     {
       "name": "SBMA Series",
       "slug": "sbma-series",
+      "image": "image31.png",
       "specs": {}
     },
     {
       "name": "BMA Series",
       "slug": "bma-series",
+      "image": "image32.png",
       "specs": {}
     }
   ]
