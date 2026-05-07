@@ -12,7 +12,7 @@
         "image2.png"
       ],
       "specs": {
-        "Operating Temperature": "- 55℃ ~  + 125℃",
+        "Operating Temperature": "-55℃ ~ +125℃",
         "Vibration": "10 ~ 2000Hz, 196m/s²",
         "Shock": "980m/s², 6ms",
         "Rated Current": "1A",
@@ -31,7 +31,7 @@
         "image4.png"
       ],
       "specs": {
-        "Operating Temperature": "- 55℃ ~ +185℃",
+        "Operating Temperature": "-55℃ ~ +185℃",
         "Vibration": "10 ~ 2000Hz, 196m/s²",
         "Shock": "735m/s²",
         "Rated Current": "3A",
