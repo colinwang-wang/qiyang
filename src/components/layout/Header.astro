@@ -1,9 +1,18 @@
 ---
 import { url } from '../../utils/url';
 
+const productChildren = [
+  { label: 'ELECTRICAL CONNECTOR', href: url('/products/electrical-connector') },
+  { label: 'CABLE ASSEMBLY', href: url('/products/cable-assembly') },
+  { label: 'BLDC TORQUE MOTOR', href: url('/products/bldc-torque-motor') },
+  { label: 'RESOLVER TRANSMITTER', href: url('/products/resolver-transmitter') },
+  { label: 'ROTARY ENCODER', href: url('/products/rotary-encoder') },
+  { label: 'INTERNATIONAL BRANDS', href: url('/products/international-brands') },
+];
+
 const navItems = [
   { label: 'HOME', href: url('/') },
-  { label: 'PRODUCTS', href: url('/products') },
+  { label: 'PRODUCTS', href: url('/products'), children: productChildren },
   { label: 'APPLICATIONS', href: url('/applications') },
   { label: 'NEWS', href: url('/news') },
   { label: 'ABOUT US', href: url('/about') },
@@ -14,7 +23,6 @@ const currentPath = Astro.url.pathname;
 ---
 
 <header class="bg-white shadow-sm sticky top-0 z-50">
-  <!-- Top bar -->
   <div class="bg-primary text-white text-xs sm:text-sm py-1">
     <div class="max-w-7xl mx-auto px-4 flex justify-end gap-4 sm:gap-6">
       <span>Email: sales@sz-qy.com.cn</span>
@@ -22,7 +30,6 @@ const currentPath = Astro.url.pathname;
     </div>
   </div>
 
-  <!-- Main nav -->
   <nav class="max-w-7xl mx-auto px-4 flex items-center justify-between h-16">
     <a href={url('/')} class="flex items-center gap-3">
       <img src={url('/images/logo.png')} alt="Qiyang Logo" class="h-10" />
@@ -34,28 +41,42 @@ const currentPath = Astro.url.pathname;
     <!-- Desktop nav -->
     <ul class="hidden md:flex items-center gap-1">
       {navItems.map((item) => (
-        <li>
+        <li class="relative group">
           <a
             href={item.href}
             class:list={[
-              'px-3 py-2 text-sm font-medium rounded transition-colors',
-              currentPath === item.href || (item.href !== '/' && currentPath.startsWith(item.href))
+              'px-3 py-2 text-sm font-medium rounded transition-colors inline-flex items-center gap-1',
+              currentPath === item.href || (item.href !== url('/') && currentPath.startsWith(item.href))
                 ? 'text-primary bg-blue-50'
                 : 'text-gray-700 hover:text-primary hover:bg-blue-50',
             ]}
           >
             {item.label}
+            {item.children && (
+              <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            )}
           </a>
+          {item.children && (
+            <div class="absolute top-full left-0 hidden group-hover:block pt-1 z-50">
+              <ul class="bg-white border rounded-lg shadow-lg py-2 min-w-[220px]">
+                {item.children.map((child) => (
+                  <li>
+                    <a href={child.href} class="block px-4 py-2.5 text-sm text-gray-700 hover:text-primary hover:bg-blue-50 transition-colors">
+                      {child.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </li>
       ))}
     </ul>
 
     <!-- Mobile menu button -->
-    <button
-      id="mobile-menu-btn"
-      class="md:hidden p-2 text-gray-700"
-      aria-label="Toggle menu"
-    >
+    <button id="mobile-menu-btn" class="md:hidden p-2 text-gray-700" aria-label="Toggle menu">
       <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
       </svg>
@@ -71,13 +92,24 @@ const currentPath = Astro.url.pathname;
             href={item.href}
             class:list={[
               'block px-3 py-2 text-sm font-medium rounded',
-              currentPath === item.href || (item.href !== '/' && currentPath.startsWith(item.href))
+              currentPath === item.href || (item.href !== url('/') && currentPath.startsWith(item.href))
                 ? 'text-primary bg-blue-50'
                 : 'text-gray-700 hover:text-primary',
             ]}
           >
             {item.label}
           </a>
+          {item.children && (
+            <ul class="pl-4 space-y-1">
+              {item.children.map((child) => (
+                <li>
+                  <a href={child.href} class="block px-3 py-1.5 text-xs text-gray-600 hover:text-primary rounded">
+                    {child.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          )}
         </li>
       ))}
     </ul>
