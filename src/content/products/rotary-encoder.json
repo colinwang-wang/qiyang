@@ -7,15 +7,12 @@
       "name": "Rotary Encoder",
       "slug": "rotary-encoder",
       "image": "image83.png",
-      "images": [
-        "image83.png",
-        "image84.png"
-      ],
+      "images": ["image83.png", "rotary-1.png", "rotary-2.png", "rotary-3.png", "rotary-4.png"],
       "features": [
         "Contactless design, hollow shaft structure",
-        "High resolution and high precision ( 0.01°)",
+        "High resolution and high precision (0.01°)",
         "Highest speed up to 4000RPM",
-        "Ultra-thin(Dia.:25mm to 130mm) ultra-light (3g~90g)",
+        "Ultra-thin (Dia.: 25mm to 130mm), ultra-light (3g~90g)",
         "Maximum number of bits per turn can reach 21 bit",
         "SSI, BISS or UART interface",
         "High tolerance to shock, humidity, EMI and RFI",
