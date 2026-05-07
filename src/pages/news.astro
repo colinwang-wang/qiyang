@@ -2,6 +2,12 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/layout/Header.astro';
 import Footer from '../components/layout/Footer.astro';
+import { url } from '../utils/url';
+import fs from 'node:fs';
+import path from 'node:path';
+
+const newsFile = path.join(process.cwd(), 'src/content/news.json');
+const news = JSON.parse(fs.readFileSync(newsFile, 'utf-8'));
 ---
 
 <BaseLayout title="News - Shenzhen Qiyang Electronics" description="Latest news and updates from Shenzhen Qiyang Electronics Co., Ltd.">
@@ -13,9 +19,24 @@ import Footer from '../components/layout/Footer.astro';
       </div>
     </div>
     <div class="max-w-7xl mx-auto px-4 py-12">
-      <div class="text-center py-16">
-        <p class="text-gray-500 text-lg">News and updates coming soon.</p>
-      </div>
+      {news.length > 0 ? (
+        <div class="space-y-6 max-w-3xl mx-auto">
+          {news.map((item: any) => (
+            <article class="border rounded-lg p-6 hover:shadow-md transition-shadow">
+              <time class="text-sm text-gray-500">{item.date}</time>
+              <h2 class="text-xl font-bold text-gray-800 mt-1">{item.title}</h2>
+              <p class="text-gray-600 mt-2">{item.summary}</p>
+              {item.content && (
+                <p class="text-gray-700 mt-3 text-sm leading-relaxed">{item.content}</p>
+              )}
+            </article>
+          ))}
+        </div>
+      ) : (
+        <div class="text-center py-16">
+          <p class="text-gray-500 text-lg">News and updates coming soon.</p>
+        </div>
+      )}
     </div>
   </main>
   <Footer />
