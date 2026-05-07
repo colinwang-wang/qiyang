@@ -7,13 +7,11 @@
       "name": "Resolver Transmitter",
       "slug": "resolver-transmitter",
       "image": "image82.png",
-      "images": [
-        "image82.png"
-      ],
+      "images": ["image82.png", "resolver-2.png"],
       "features": [
         "Diameter range: φ20 to φ150",
         "Electrical error ≤ 10 (')",
-        "Operating Temperature - 55℃ ~ +125℃",
+        "Operating Temperature -55℃ ~ +125℃",
         "High temperature resistance, vibration immunity",
         "Long service life"
       ],
