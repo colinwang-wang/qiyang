@@ -25,8 +25,7 @@ const passiveBrands = brandFiles.filter(f => f.startsWith('passive-'));
       </div>
     </div>
     <div class="max-w-7xl mx-auto px-4 py-12">
-      <h2 class="text-2xl font-bold text-gray-800 mb-6">Connector Brands</h2>
-      <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 mb-12">
+      <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
         {connectorBrands.map((file) => {
           const name = file.replace('connector-', '').replace(/\.(jpg|png)$/, '').toUpperCase();
           return (
@@ -35,10 +34,6 @@ const passiveBrands = brandFiles.filter(f => f.startsWith('passive-'));
             </div>
           );
         })}
-      </div>
-
-      <h2 class="text-2xl font-bold text-gray-800 mb-6">Passive Components Brands</h2>
-      <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
         {passiveBrands.map((file) => {
           const name = file.replace('passive-', '').replace(/\.(jpg|png)$/, '').toUpperCase();
           return (
