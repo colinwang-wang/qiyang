@@ -25,7 +25,6 @@ export function getStaticPaths() {
 
 const { category } = Astro.params;
 const { data } = Astro.props;
-const series = data.series?.[0];
 ---
 
 <BaseLayout title={`${data.name} - Shenzhen Qiyang Electronics`}>
@@ -40,14 +39,37 @@ const series = data.series?.[0];
       </div>
     </div>
     <div class="max-w-7xl mx-auto px-4 py-12">
-      {series?.features ? (
+      {data.series.length > 1 ? (
+        <div class="space-y-12">
+          {data.series.map((series: any) => (
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+              <div class="bg-gray-50 rounded-lg p-6 flex items-center justify-center">
+                <img src={url(`/images/products/${series.image}`)} alt={`${series.name} - Shenzhen Qiyang Electronics`} class="max-h-64 object-contain" />
+              </div>
+              <div>
+                <h2 class="text-xl font-bold text-gray-800 mb-4">{series.name}</h2>
+                {series.features && (
+                  <ul class="space-y-2">
+                    {series.features.map((f: string, i: number) => (
+                      <li class="flex items-start gap-2 text-gray-700">
+                        <span class="text-primary font-bold">{i + 1}.</span>
+                        <span>{f}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            </div>
+          ))}
+        </div>
+      ) : data.series[0]?.features ? (
         <div class="max-w-3xl mx-auto">
           <div class="bg-gray-50 rounded-lg p-8 mb-8 flex items-center justify-center">
-            <img src={url(`/images/products/${series.image || 'bldc-torque-motor.png'}`)} alt={`${data.name} - Shenzhen Qiyang Electronics`} class="max-h-64 object-contain" />
+            <img src={url(`/images/products/${data.series[0].image || 'bldc-torque-motor.png'}`)} alt={`${data.name} - Shenzhen Qiyang Electronics`} class="max-h-64 object-contain" />
           </div>
           <h2 class="text-2xl font-bold mb-6">Features</h2>
           <ul class="space-y-3">
-            {series.features.map((f: string) => (
+            {data.series[0].features.map((f: string) => (
               <li class="flex items-start gap-3 text-gray-700">
                 <span class="text-primary font-bold">✓</span>
                 <span>{f}</span>

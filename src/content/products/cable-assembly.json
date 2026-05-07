@@ -1,0 +1,46 @@
+{
+  "name": "Cable Assembly",
+  "slug": "cable-assembly",
+  "parent": null,
+  "series": [
+    {
+      "name": "Rectangular Connector Cable Assembly",
+      "slug": "rectangular-connector-cable-assembly",
+      "image": "cable-rectangular.png",
+      "images": ["cable-rectangular.png"],
+      "features": [
+        "Compact structure, space-saving design for dense installation scenarios.",
+        "High contact density, stable signal transmission and strong shock resistance.",
+        "Easy plug-and-play assembly, convenient for equipment wiring and maintenance.",
+        "Good mechanical durability and reliable locking performance for industrial equipment connection."
+      ],
+      "specs": {}
+    },
+    {
+      "name": "Circular Connector Cable Assembly",
+      "slug": "circular-connector-cable-assembly",
+      "image": "cable-circular.png",
+      "images": ["cable-circular.png"],
+      "features": [
+        "Round waterproof and dustproof design, adapt to harsh outdoor and industrial environments.",
+        "Excellent vibration resistance and pull-out resistance, firm connection without loose contact.",
+        "Multi-core optional, support power and signal integrated transmission.",
+        "High sealing performance, suitable for harsh environment applications."
+      ],
+      "specs": {}
+    },
+    {
+      "name": "RF Connector Cable Assembly",
+      "slug": "rf-connector-cable-assembly",
+      "image": "cable-rf.png",
+      "images": ["cable-rf.png"],
+      "features": [
+        "Low insertion loss and high return loss, ensure high-frequency signal stable transmission.",
+        "Excellent electromagnetic shielding performance, effectively avoid signal interference.",
+        "Precise impedance matching, stable performance in radio frequency and microwave systems.",
+        "Strictly calibrated production, widely used in communication, base station and wireless equipment."
+      ],
+      "specs": {}
+    }
+  ]
+}
