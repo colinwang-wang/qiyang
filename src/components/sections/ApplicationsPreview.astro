@@ -13,10 +13,8 @@ const images = [
     <h2 class="text-2xl md:text-3xl font-bold text-center text-primary mb-8 md:mb-10">APPLICATIONS</h2>
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6">
       {images.map((img) => (
-        <a href={url('/applications')} class="group overflow-hidden rounded-lg shadow-sm hover:shadow-md transition-shadow">
-          <div class="overflow-hidden">
-            <img src={img.src} alt={img.alt} class="w-full h-auto object-contain group-hover:scale-105 transition-transform duration-300" />
-          </div>
+        <a href={url('/applications')} class="group overflow-hidden rounded-lg shadow-sm hover:shadow-md transition-shadow flex items-center justify-center">
+          <img src={img.src} alt={img.alt} class="w-full h-auto object-contain group-hover:scale-105 transition-transform duration-300" />
         </a>
       ))}
     </div>
