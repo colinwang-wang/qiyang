@@ -6,8 +6,8 @@
     {
       "name": "BLDC Torque Motor",
       "slug": "bldc-torque-motor",
-      "image": "bldc-1.png",
-      "images": ["bldc-1.png", "bldc-2.png", "bldc-3.png"],
+      "image": "image80.png",
+      "images": ["image80.png", "bldc-1.png", "bldc-2.png", "bldc-3.png"],
       "features": [
         "Large torque at low rotation speed",
         "Dimensions range: φ17 to φ400",
