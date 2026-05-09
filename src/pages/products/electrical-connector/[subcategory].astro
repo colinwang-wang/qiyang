@@ -37,9 +37,9 @@ const { data } = Astro.props;
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {data.series.map((series: any) => (
           <a href={url(`/products/electrical-connector/${subcategory}/${series.slug}`)} class="group bg-white rounded-lg border hover:shadow-md transition-shadow overflow-hidden">
-            <div class="flex items-center justify-center gap-2 p-3 bg-gray-50 h-32">
+            <div class="flex items-center justify-center gap-2 p-3 bg-gray-50 aspect-[4/3]">
               {series.images?.map((img: string) => (
-                <img src={url(`/images/products/${img}`)} alt={`${series.name} - ${data.name} - Shenzhen Qiyang Electronics`} class="max-h-28 max-w-[45%] object-contain group-hover:scale-105 transition-transform" />
+                <img src={url(`/images/products/${img}`)} alt={`${series.name} - ${data.name} - Shenzhen Qiyang Electronics`} class="max-h-full max-w-[45%] object-contain group-hover:scale-105 transition-transform" />
               ))}
             </div>
             <div class="p-3 text-center border-t">
