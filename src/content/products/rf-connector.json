@@ -6,172 +6,291 @@
     {
       "name": "SMP Series",
       "slug": "smp-series",
-      "image": "image27.png",
+      "specs": {
+        "Impedance": "50 Ω",
+        "Frequency Range": "DC~40GHz",
+        "Rated Voltage": "170VRMS*",
+        "DWV": "500VRMS*",
+        "Insulation Resistance": "≥5000MΩ",
+        "Contact Resistance (Outer Contact)": "Normal≤2.5mΩ, Hermetic≤4mΩ",
+        "VSWR": "DC~18GHz / 18~26.5GHz"
+      },
+      "image": "rf-1.png",
       "images": [
-        "image27.png",
-        "image26.png"
-      ],
-      "specs": {}
+        "rf-1.png"
+      ]
     },
     {
       "name": "SSMP Series",
       "slug": "ssmp-series",
-      "image": "image88.png",
+      "specs": {
+        "Impedance": "50Ω",
+        "Frequency Range": "DC~50GHz",
+        "Rated Voltage": "170VRMS*",
+        "Dielectrics Voltage-resistance": "500VRMS*",
+        "Insulation Resistance": "≥5000MΩ",
+        "Contact Resistance (Outer Conductor)": "Normal≤3.5mΩ,Hermetic≤5mΩ",
+        "VSWR (DC~18GHz)": "18~26.5GHz / 26.5~40GHz"
+      },
+      "image": "rf-2.png",
       "images": [
-        "image88.png",
-        "image28.png"
-      ],
-      "specs": {}
+        "rf-2.png"
+      ]
     },
     {
       "name": "CSMP Series",
       "slug": "csmp-series",
-      "image": "image29.png",
+      "specs": {
+        "Impedance": "50Ω",
+        "Frequency Range": "DC~60GHz",
+        "Rated Voltage": "85VRMS*",
+        "Insulation Resistance": "250VRMS*",
+        "Dielectrics Voltage-resistance": "≥2000MΩ",
+        "Contact Resistance (Outer Conductor)": "Normal≤2mΩ, Hermetic≤5mΩ",
+        "VSWR (DC~18GHz)": "18~26.5GHz / 26.5~40GHz"
+      },
+      "image": "rf-3.png",
       "images": [
-        "image29.png",
-        "image30.png"
-      ],
-      "specs": {}
+        "rf-3.png"
+      ]
     },
     {
       "name": "ASMP Series",
       "slug": "asmp-series",
-      "image": "image31.png",
+      "specs": {
+        "Impedance": "50Ω",
+        "Frequency Range": "DC-18GHz DC-24GHz(Hermetic)",
+        "Rated Voltage": "250VRMS*",
+        "Insulation Resistance": "750VRMS*",
+        "Dielectrics Voltage-resistance": "≥5000MΩ",
+        "Contact Resistance (Outer Conductor)": "Normal≤2.5mΩ,Hermetic≤4mΩ",
+        "VSWR": "DC~18GHz / 12~18GHz"
+      },
+      "image": "rf-4.png",
       "images": [
-        "image31.png",
-        "image32.png"
-      ],
-      "specs": {}
+        "rf-4.png"
+      ]
     },
     {
       "name": "SMA Series",
       "slug": "sma-series",
-      "image": "image33.png",
+      "specs": {
+        "Impedance": "50Ω",
+        "Frequency Range": "DC~18GHz",
+        "Rated Voltage": "335VRMS*",
+        "DWV": "1000VRMS*",
+        "VSWR (Straight)": "≤1.3",
+        "Contact Resistance (Center Contact)": "≤3mΩ",
+        "Insulation Resistance": "≥5000MΩ"
+      },
+      "image": "rf-5.png",
       "images": [
-        "image33.png",
-        "image34.png"
-      ],
-      "specs": {}
+        "rf-5.png"
+      ]
     },
     {
       "name": "SSMA Series",
       "slug": "ssma-series",
-      "image": "image35.png",
+      "specs": {
+        "Impedance": "50Ω",
+        "Frequency Range": "DC~18GHz",
+        "Rated Voltage": "250VRMS*",
+        "DWV": "750VRMS*",
+        "VSWR": "≤1.3",
+        "Contact Resistance (Center Contact)": "≤4mΩ",
+        "Insulation Resistance": "≥5000MΩ"
+      },
+      "image": "rf-6.png",
       "images": [
-        "image35.png",
-        "image36.png"
-      ],
-      "specs": {}
+        "rf-6.png"
+      ]
     },
     {
       "name": "K2.92mm Series",
       "slug": "k2.92mm-series",
-      "image": "image37.png",
+      "specs": {
+        "Impedance": "50Ω",
+        "Frequency Range": "DC~40GHz",
+        "Rated Voltage": "250VRMS*",
+        "DWV": "750VRMS*",
+        "VSWR": "≤1.05+0.005f",
+        "Contact Resistance (Center Contact)": "≤3mΩ",
+        "Insulation Resistance": "≥5000MΩ"
+      },
+      "image": "rf-7.png",
       "images": [
-        "image37.png",
-        "image38.png"
-      ],
-      "specs": {}
+        "rf-7.png"
+      ]
     },
     {
       "name": "3.5mm Series",
       "slug": "3.5mm-series",
-      "image": "image39.png",
+      "specs": {
+        "Impedance": "50Ω",
+        "Frequency Range": "DC~33GHz",
+        "Rated Voltage": "335VRMS*",
+        "DWV": "1000VRMS*",
+        "VSWR": "≤1.05+0.005f",
+        "Contact Resistance (Center Contact)": "≤3mΩ",
+        "Insulation Resistance": "≥5000MΩ"
+      },
+      "image": "rf-8.png",
       "images": [
-        "image39.png",
-        "image40.png"
-      ],
-      "specs": {}
+        "rf-8.png"
+      ]
     },
     {
       "name": "2.4mm Series",
       "slug": "2.4mm-series",
-      "image": "image41.png",
+      "specs": {
+        "Impedance": "50Ω",
+        "Frequency Range": "DC~50GHz",
+        "Rated Voltage": "170VRMS*",
+        "DWV": "500VRMS*",
+        "VSWR": "≤1.05+0.005f",
+        "Contact Resistance (Center Contact)": "≤3mΩ",
+        "Insulation Resistance": "≥5000MΩ"
+      },
+      "image": "rf-9.png",
       "images": [
-        "image41.png",
-        "image42.png"
-      ],
-      "specs": {}
+        "rf-9.png"
+      ]
     },
     {
       "name": "1.0mm Series",
       "slug": "1.0mm-series",
-      "image": "image43.png",
+      "specs": {
+        "Impedance": "50Ω",
+        "Frequency Range": "DC~110GHz",
+        "Rated Voltage": "85VRMS*",
+        "DWV": "250VRMS*",
+        "VSWR": "≤1.1+0.005f",
+        "Contact Resistance (Center Contact)": "≤12mΩ",
+        "Insulation Resistance": "≥5000MΩ"
+      },
+      "image": "rf-10.png",
       "images": [
-        "image43.png",
-        "image44.png"
-      ],
-      "specs": {}
+        "rf-10.png"
+      ]
     },
     {
       "name": "MSSM Series",
       "slug": "mssm-series",
-      "image": "image45.png",
+      "specs": {
+        "Impedance": "50Ω",
+        "Frequency Range": "DC~40GHz",
+        "Rated Voltage": "170VRMS*",
+        "DWV": "500VRMS*",
+        "VSWR": "≤1.07+0.007f",
+        "Contact Resistance (Center Contact)": "≤4mΩ",
+        "Insulation Resistance": "≥5000MΩ"
+      },
+      "image": "rf-11.png",
       "images": [
-        "image45.png",
-        "image46.png"
-      ],
-      "specs": {}
+        "rf-11.png"
+      ]
     },
     {
       "name": "N Type Series",
       "slug": "n-type-series",
-      "image": "image47.png",
+      "specs": {
+        "Impedance": "50Ω",
+        "Frequency Range": "DC~11GHz",
+        "Rated Voltage": "1000VRMS*",
+        "DWV": "1500VRMS*",
+        "VSWR": "≤1.3",
+        "Contact Resistance (Center Contact)": "≤2.5mΩ",
+        "Insulation Resistance": "≥5000MΩ"
+      },
+      "image": "rf-12.png",
       "images": [
-        "image47.png",
-        "image48.png"
-      ],
-      "specs": {}
+        "rf-12.png"
+      ]
     },
     {
       "name": "TMA Series",
       "slug": "tma-series",
-      "image": "image49.png",
+      "specs": {
+        "Impedance": "50Ω",
+        "Frequency Range": "DC~6GHz",
+        "Rated Voltage": "500VRMS*",
+        "DWV": "1500VRMS*",
+        "VSWR": "≤1.3",
+        "Contact Resistance (Center Contact)": "≤2mΩ",
+        "Insulation Resistance": "≥5000MΩ"
+      },
+      "image": "rf-13.png",
       "images": [
-        "image49.png",
-        "image50.png"
-      ],
-      "specs": {}
+        "rf-13.png"
+      ]
     },
     {
       "name": "TNC Series",
       "slug": "tnc-series",
-      "image": "image51.png",
+      "specs": {
+        "Impedance": "50Ω",
+        "Frequency Range": "DC~11GHz",
+        "Rated Voltage": "500VRMS*",
+        "DWV": "1500VRMS*",
+        "VSWR": "≤1.3",
+        "Contact Resistance (Center Contact)": "≤3mΩ",
+        "Insulation Resistance": "≥5000MΩ"
+      },
+      "image": "rf-14.png",
       "images": [
-        "image51.png",
-        "image52.png"
-      ],
-      "specs": {}
+        "rf-14.png"
+      ]
     },
     {
       "name": "TNCA Series",
       "slug": "tnca-series",
-      "image": "image53.png",
+      "specs": {
+        "Impedance": "50Ω",
+        "Frequency Range": "DC~18GHz",
+        "Rated Voltage": "500VRMS*",
+        "DWV": "1000VRMS*",
+        "VSWR": "≤1.3",
+        "Contact Resistance (Center Conductor)": "≤3mΩ",
+        "Insulation Resistance": "≥5000MΩ"
+      },
+      "image": "rf-15.png",
       "images": [
-        "image53.png",
-        "image54.png"
-      ],
-      "specs": {}
+        "rf-15.png"
+      ]
     },
     {
       "name": "SBMA Series",
       "slug": "sbma-series",
-      "image": "image55.png",
+      "specs": {
+        "Impedance": "50Ω",
+        "Frequency Range": "DC~26.5GHz",
+        "Rated Voltage": "225VRMS*",
+        "DWV": "675VRMS*",
+        "VSWR": "≤1.1+0.01f",
+        "Contact Resistance (Center Contact)": "≤5mΩ",
+        "Insulation Resistance": "≥5000MΩ"
+      },
+      "image": "rf-16.png",
       "images": [
-        "image55.png",
-        "image56.png"
-      ],
-      "specs": {}
+        "rf-16.png"
+      ]
     },
     {
       "name": "BMA Series",
       "slug": "bma-series",
-      "image": "image57.png",
+      "specs": {
+        "Impedance": "50Ω",
+        "Frequency Range": "DC~18GHz",
+        "Rated Voltage": "335VRMS*",
+        "DWV": "1000VRMS*",
+        "VSWR": "≤1.35",
+        "Contact Resistance (Center Conductor)": "≤4mΩ",
+        "Insulation Resistance": "≥5000MΩ"
+      },
+      "image": "rf-17.png",
       "images": [
-        "image57.png",
-        "image58.png"
-      ],
-      "specs": {}
+        "rf-17.png"
+      ]
     }
   ]
 }
