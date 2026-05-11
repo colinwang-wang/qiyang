@@ -45,7 +45,7 @@ const { series, categoryName, categorySlug } = Astro.props;
       <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
         <div class="bg-gray-50 rounded-lg p-8 flex items-center justify-center gap-4">
           {series.images?.map((img: string) => (
-            <img src={url(`/images/products/${img}`)} alt={`${series.name} - ${categoryName} - Shenzhen Qiyang Electronics`} class="max-h-72 max-w-[45%] object-contain" />
+            <img src={url(`/images/products/${img}`)} alt={`${series.name} - ${categoryName} - Shenzhen Qiyang Electronics`} class="max-h-80 max-w-[48%] object-contain" />
           ))}
         </div>
         <div>
