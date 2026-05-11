@@ -50,9 +50,9 @@ const { data } = Astro.props;
                 <h2 class="text-xl font-bold text-gray-800 mb-4">{series.name}</h2>
                 {series.features && (
                   <ul class="space-y-2">
-                    {series.features.map((f: string, i: number) => (
+                    {series.features.map((f: string) => (
                       <li class="flex items-start gap-2 text-gray-700">
-                        <span class="text-primary font-bold">{i + 1}.</span>
+                        <span class="text-primary font-bold">✓</span>
                         <span>{f}</span>
                       </li>
                     ))}

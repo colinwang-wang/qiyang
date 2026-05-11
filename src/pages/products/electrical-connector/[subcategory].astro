@@ -39,7 +39,7 @@ const { data } = Astro.props;
           <a href={url(`/products/electrical-connector/${subcategory}/${series.slug}`)} class="group bg-white rounded-lg border hover:shadow-md transition-shadow overflow-hidden">
             <div class="flex items-center justify-center gap-2 p-4 bg-gray-50 aspect-[4/3]">
               {series.images?.map((img: string) => (
-                <img src={url(`/images/products/${img}`)} alt={`${series.name} - ${data.name} - Shenzhen Qiyang Electronics`} class:list={['object-contain group-hover:scale-105 transition-transform', series.images.length > 1 ? 'max-h-28 max-w-[45%]' : 'max-h-32 max-w-[70%]']} />
+                <img src={url(`/images/products/${img}`)} alt={`${series.name} - ${data.name} - Shenzhen Qiyang Electronics`} class:list={['object-contain group-hover:scale-105 transition-transform h-32 w-auto', series.images.length > 1 ? 'max-w-[45%]' : 'max-w-[80%]']} />
               ))}
             </div>
             <div class="p-3 text-center border-t">
